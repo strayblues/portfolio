@@ -1,1 +1,1 @@
-Uses local storage
+A simple hybrid mobile app that stores user settings and generates random numbers. Written with jQuery Mobile. 

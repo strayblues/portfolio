@@ -15,8 +15,7 @@ body {
   padding: 2rem;
 }
 
-h1 {
-  font-size: 60%;
+h1, h2 {
   margin-bottom: 2.5rem;
   margin-top: 3.5rem;
 }
@@ -167,8 +166,16 @@ a:hover {
   color: yellowgreen;
 }
 
+.fa-android:hover {
+  color: #77a320;
+}
+
 .fa-github {
   color: black;
+}
+
+.fa-github:hover {
+  color: #2B3461;
 }
 
 .fa {

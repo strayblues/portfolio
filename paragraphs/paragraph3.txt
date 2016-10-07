@@ -1,1 +1,1 @@
-Uses IndexedDB
+Written with Angular 2. 

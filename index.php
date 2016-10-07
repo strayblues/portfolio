@@ -26,14 +26,13 @@
   </head>
   <body>
 <!-- Navbar-->
-<?php
-  include("includes/head.html");
-?>
+    <?php
+      include("includes/head.html");
+    ?>
     <div class="container">
       <!-- 1st row of columns -->
       <div class="row">
-        <h1 class="display-4">My mini projects (hybrid apps)</h1>
-
+        <h1 class="display-4">Mini Projects</h1>
         <div class="col-md-4">
           <div class="thumbnail">
               <div>
@@ -47,7 +46,7 @@
               </div>
               <div>
                   <a href=""><i class="fa fa-android fa-3x" aria-hidden="true"></i></a>
-                  <a href=""><i class="fa fa-code fa-3x" aria-hidden="true"></i></a>
+                  <a href=""><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
               </div>
             </div>
           </div>
@@ -65,7 +64,7 @@
             </div>
             <div>
               <a href=""><i class="fa fa-android fa-3x" aria-hidden="true"></i></a>
-              <a href=""><i class="fa fa-code fa-3x" aria-hidden="true"></i></a>
+              <a href=""><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
             </div>
           </div>
         </div>
@@ -83,7 +82,7 @@
             </div>
             <div>
               <a href=""><i class="fa fa-android fa-3x" aria-hidden="true"></i></a>
-              <a href=""><i class="fa fa-code fa-3x" aria-hidden="true"></i></a>
+              <a href=""><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
             </div>
           </div>
         </div>
@@ -92,7 +91,7 @@
 
         <!-- 2nd row of columns -->
         <div class="row">
-          <h1 class="display-4">Other projects I'm involved in</h1>
+          <h1 class="display-4">Collaborative Effort</h1>
 
           <div class="col-md-4">
             <div class="thumbnail">
