@@ -1,1 +1,1 @@
-A friend’s dictionary Chrome extension
+A dictionary extension for Chrome

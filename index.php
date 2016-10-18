@@ -18,7 +18,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="my-css/css-greenpink.css" rel="stylesheet">
+    <link href="my-css/css-lilac.css" rel="stylesheet">
     <link href="my-css/typing-animation.css" rel="stylesheet">
     <!--
     <link href="my-css/my-css2.css" rel="stylesheet">
