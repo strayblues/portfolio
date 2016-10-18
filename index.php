@@ -27,7 +27,7 @@
   </head>
   <body>
 
-<!-- Navbar-->
+<!-- Head without navbar-->
     <?php
       include("includes/head.html");
     ?>
@@ -42,9 +42,9 @@
       include("includes/miniprojects.html");
     ?>
     <hr>
-    <!-- Contact form -->
+    <!-- Contact form + About -->
     <?php
-      include("includes/contact2.php");
+      include("includes/contactabout.php");
     ?>
     <hr>
       <!-- icon footer -->

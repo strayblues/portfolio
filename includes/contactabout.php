@@ -27,15 +27,28 @@ if ($_POST['submit']) {
 }
 ?>
 
-<div class="" id="contact" role="">
-  <div class="">
+
+<div class="row row-contact-about">
+
+  <div class="col-md-6">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="display-6">About me</h4>
+      </div>
+      Helloworld
+
+    </div>
+  </div>
+
+  <div class="col-md-6">
     <div class="modal-content">
       <form class="form-horizontal" method="post" action="index.php" role="form">
         <div class="modal-header">
-          <h4>Leave a message</h4>
+          <h4>About you</h4>
           <?php
             echo $result;?>
         </div>
+
         <div class="modal-body">
 
           <div class="form-group">
@@ -67,14 +80,15 @@ if ($_POST['submit']) {
               <input type="checkbox" name="check"> I am human
             </label>
           </div>
+
         </div>
 
         <div class="modal-footer">
           <button class="btn btn-primary btn-sm" type="submit" value="Submit" name="submit">Send</button>
-          <a class="btn btn-default btn-sm" data-dismiss="modal">Cancel</a>
         </div>
 
     </form>
     </div>
   </div>
+
 </div>

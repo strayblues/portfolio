@@ -112,8 +112,12 @@ a:hover {
   border-color: #ddd !important;
 }
 
+.modal-header {
+  background-color: #b51e62 !important;
+}
+
 .modal-content {
-  background-color: #8a6f8e !important;
+  background-color: #e8aecd !important;
 }
 
 .icon-holder a {
