@@ -18,7 +18,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="my-css/css-lilac.css" rel="stylesheet">
+    <link href="my-css/css-graypink.css" rel="stylesheet">
     <link href="my-css/typing-animation.css" rel="stylesheet">
     <!--
     <link href="my-css/my-css2.css" rel="stylesheet">
@@ -33,21 +33,32 @@
     ?>
 
     <div class="container">
-      <!-- 1st row of columns -->
+      <!-- Contact form + About -->
+      <?php
+        include("includes/aboutme.php");
+      ?>
+    </div>
+
+    <div class="container contrib">
       <?php
         include("includes/contributions.html");
       ?>
-      <!-- 2nd row of columns -->
-    <?php
-      include("includes/miniprojects.html");
-    ?>
-    <hr>
+    </div>
+    <div class="container">
+      <?php
+        include("includes/miniprojects.html");
+      ?>
+    </div>
+    <div class="container">
     <!-- Contact form + About -->
     <?php
-      include("includes/contactabout.php");
+      include("includes/aboutyou.php");
     ?>
-    <hr>
+    </div>
+
       <!-- icon footer -->
+      <div class="container">
+      <hr>
       <?php
         include("includes/fa-icons.php");
       ?>
@@ -55,7 +66,7 @@
       <footer class="ftr-copy">
         <p>&copy; Hagar Shilo, 2016</p>
       </footer>
-    </div> <!-- /container -->
+    </div>
 
     <?php
       include("includes/contact.php");

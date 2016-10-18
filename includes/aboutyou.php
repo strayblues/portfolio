@@ -27,29 +27,16 @@ if ($_POST['submit']) {
 }
 ?>
 
+<div class="row row-about">
 
-<div class="row row-contact-about">
-
-  <div class="col-md-6">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h4>About me</h4>
-      </div>
-        <div class="modal-body">
-          <p class="about">
-            Helloworld
-          </p>
-      </div>
-      <div class="modal-footer">
-      </div>
-    </div>
+  <div class="col-md-3">
   </div>
 
   <div class="col-md-6">
     <div class="modal-content">
       <form class="form-horizontal" method="post" action="index.php" role="form">
-        <div class="modal-header">
-          <h4>About you</h4>
+        <div class="modal-header modal-header-you">
+          <h4 class="pink-heading">ABOUT YOU</h4>
           <?php
             echo $result;?>
         </div>

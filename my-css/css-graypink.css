@@ -3,8 +3,7 @@
 }
 
 body {
-  background-color: #84546F;
-/*  background-color: #999;*/
+  background-color: #888;
 
 }
 
@@ -128,8 +127,16 @@ a:hover {
   background-color: #b51e62 !important;
 }
 
+.modal-header-you {
+  background-color: #e8aecd !important;
+}
+
 .modal-content {
   background-color: #e8aecd !important;
+}
+
+.pink-heading {
+  color: #b51e62;
 }
 
 .icon-holder a {
@@ -154,7 +161,7 @@ a:hover {
 .ftr-copy {
   color: white;
   bottom: 0rem;
-  margin-top: 2rem;
+  margin-top: 5rem;
 }
 
 .ftr-icons {
