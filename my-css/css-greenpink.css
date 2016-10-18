@@ -3,7 +3,11 @@
 }
 
 body {
-  background-color: #6C77BA;
+  background-color: #720123;
+}
+
+.row-contrib h3 {
+  color: #720123;
 }
 
 .banner {
@@ -20,13 +24,21 @@ h1, h2 {
   margin-top: 3.5rem;
 }
 
-h1, h2 {
+h1, h2, h4 {
   color: white;
 }
 
 h3 {
-  color: #BCC3EF;
+  color: yellowgreen;
   font-family: 'Varela Round', sans-serif;
+}
+
+.row-contrib {
+  background-color: #f990b0;
+  margin: -3rem;
+  padding-left: 2rem;
+  padding-right: 2rem
+  padding-top: 0;
 }
 
 .col-md-4, .col-md-3 {
@@ -45,7 +57,7 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: #BCC3EF;
+  color: #FB7BA2;
 }
 
 .btn-group-justified {
@@ -101,7 +113,7 @@ a:hover {
 }
 
 .modal-content {
-  background-color: #BCC3EF !important;
+  background-color: yellowgreen !important;
 }
 
 .btn-sm {
@@ -116,16 +128,17 @@ a:hover {
 }
 
 .modal-header {
-  color: #4D568E;
+  color: #EA0047;
 }
 
 .ftr-copy {
-  color: #BCC3EF;
+  color: white;
   bottom: 0rem;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .ftr-icons {
-  color: #BCC3EF;
+/*  color: #F3ABC1;*/
   height: 8rem;
   left, right: 0rem;
 }
@@ -145,7 +158,7 @@ a:hover {
 }
 
 .icon-holder a {
-  color: #BCC3EF;
+  color: #f990b0;
 }
 
 .icon-holder a:hover {
@@ -162,12 +175,12 @@ a:hover {
   color: black;
   background-color: white;
 }
-
+/*
 .btn-code:hover {
   color: #444;
   background-color: #ccc;
 }
-
+*/
 .fa-android {
   color: yellowgreen;
 }
@@ -181,7 +194,7 @@ a:hover {
 }
 
 .fa-github:hover {
-  color: #2B3461;
+  color: #333;
 }
 
 .fa {
@@ -198,16 +211,4 @@ a:hover {
 .top-buffer {
   margin-top: 3rem;
   margin-bottom: 2rem;
-}
-
-.row-contrib {
-  background-color: #FFCB4F;
-  margin: -3rem;
-  padding-left: 2rem;
-  padding-right: 2rem
-  padding-top: 0;
-}
-
-.row-contrib h3, body {
-  color: hotpink;
 }

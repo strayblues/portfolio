@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #6C77BA;
+  background-color: #F74D80;
 }
 
 .banner {
@@ -25,7 +25,7 @@ h1, h2 {
 }
 
 h3 {
-  color: #BCC3EF;
+  color: #FB7BA2;
   font-family: 'Varela Round', sans-serif;
 }
 
@@ -45,7 +45,7 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: #BCC3EF;
+  color: #FB7BA2;
 }
 
 .btn-group-justified {
@@ -101,7 +101,7 @@ a:hover {
 }
 
 .modal-content {
-  background-color: #BCC3EF !important;
+  background-color: #FB7BA2 !important;
 }
 
 .btn-sm {
@@ -116,16 +116,16 @@ a:hover {
 }
 
 .modal-header {
-  color: #4D568E;
+  color: #EA0047;
 }
 
 .ftr-copy {
-  color: #BCC3EF;
+  color: #FB7BA2;
   bottom: 0rem;
 }
 
 .ftr-icons {
-  color: #BCC3EF;
+  color: #FB7BA2;
   height: 8rem;
   left, right: 0rem;
 }
@@ -145,7 +145,7 @@ a:hover {
 }
 
 .icon-holder a {
-  color: #BCC3EF;
+  color: #FB7BA2;
 }
 
 .icon-holder a:hover {
@@ -181,7 +181,7 @@ a:hover {
 }
 
 .fa-github:hover {
-  color: #2B3461;
+  color: #A90335;
 }
 
 .fa {

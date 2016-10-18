@@ -27,12 +27,12 @@ if ($_POST['submit']) {
 }
 ?>
 
-<div class="modal fade" id="contact" role="dialog">
-  <div class="modal-dialog">
+<div class="" id="contact" role="">
+  <div class="">
     <div class="modal-content">
       <form class="form-horizontal" method="post" action="index.php" role="form">
         <div class="modal-header">
-          <h4>Contact me</h4>
+          <h4>Leave a message</h4>
           <?php
             echo $result;?>
         </div>

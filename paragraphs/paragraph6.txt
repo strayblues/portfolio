@@ -1,1 +1,1 @@
-A friend’s computational linguistics project
+A friend’s dictionary Chrome extension

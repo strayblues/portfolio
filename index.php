@@ -9,15 +9,16 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Alef" rel="stylesheet">
+<!--    <link href="https://fonts.googleapis.com/css?family=Alef" rel="stylesheet"> -->
     <script src="https://use.fontawesome.com/8f61b97be3.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <title>Hagar Shilo's portfolio</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="my-css/css.css" rel="stylesheet">
+    <link href="my-css/css-greenpink.css" rel="stylesheet">
     <link href="my-css/typing-animation.css" rel="stylesheet">
     <!--
     <link href="my-css/my-css2.css" rel="stylesheet">
@@ -31,138 +32,23 @@
     ?>
     <div class="container">
       <!-- 1st row of columns -->
-      <div class="row">
-        <h1 class="display-4">Mini Projects</h1>
-        <div class="col-md-4">
-          <div class="thumbnail">
-              <div>
-                <h3>Lotto Numbers</h3>
-                <p class="app-description">
-                  <?php
-                    $p1=file_get_contents("paragraphs/paragraph1.txt");
-                    echo $p1;
-                  ?>
-                </p>
-              </div>
-              <div>
-                  <a href=""><i class="fa fa-android fa-3x" aria-hidden="true"></i></a>
-                  <a href=""><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
-              </div>
-            </div>
-          </div>
-
-        <div class="col-md-4">
-          <div class="thumbnail">
-            <div>
-              <h3>JS Knowledge Quiz</h3>
-              <p class="app-description">
-                <?php
-                  $p2=file_get_contents("paragraphs/paragraph2.txt");
-                  echo $p2;
-                ?>
-              </p>
-            </div>
-            <div>
-              <a href=""><i class="fa fa-android fa-3x" aria-hidden="true"></i></a>
-              <a href=""><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="thumbnail">
-            <div>
-              <h3>ToDo List</h3>
-              <p class="app-description">
-                <?php
-                  $p4=file_get_contents("paragraphs/paragraph3.txt");
-                  echo $p4;
-                ?>
-              </p>
-            </div>
-            <div>
-              <a href=""><i class="fa fa-android fa-3x" aria-hidden="true"></i></a>
-              <a href=""><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
-            </div>
-          </div>
-        </div>
-
-      </div> <!-- /1st row -->
-
-        <!-- 2nd row of columns -->
-        <div class="row">
-          <h1 class="display-4">Collaborative Effort</h1>
-
-          <div class="col-md-4">
-            <div class="thumbnail">
-                <div>
-                  <h3>Wikimedia</h3>
-                  <p class="app-description">
-                    <?php
-                      $p4=file_get_contents("paragraphs/paragraph4.txt");
-                      echo $p4;
-                    ?>
-                  </p>
-                </div>
-                <div>
-                  <a href="//github.com"><i
-                    class="fa fa-github fa-3x" aria-hidden="true"></i></a>
-                </div>
-              </div>
-            </div>
-
-          <div class="col-md-4">
-            <div class="thumbnail">
-              <div>
-                <h3>ANYWAY</h3>
-                <p class="app-description">
-                  <?php
-                    $p5=file_get_contents("paragraphs/paragraph5.txt");
-                    echo $p5;
-                  ?>
-                </p>
-              </div>
-              <div>
-                <a href="//github.com"><i
-                  class="fa fa-github fa-3x" aria-hidden="true"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="thumbnail">
-              <div>
-                <h3>Familiar</h3>
-                <p class="app-description">
-                  <?php
-                    $p6=file_get_contents("paragraphs/paragraph6.txt");
-                    echo $p6;
-                  ?>
-                </p>
-              </div>
-              <div>
-                <a href="//github.com/kamomil/Familiar"><i
-                  class="fa fa-github fa-3x" aria-hidden="true"></i></a>
-              </div>
-            </div>
-          </div>
-
-        </div> <!-- /2nd row -->
-
-      <hr>
-
-      <footer class="ftr-icons">
-        <img src="" class="ftr-img">
-        <div class="icon-holder">
-          Contact / Follow:
-          <a href="//www.linkedin.com/home?trk=nav_responsive_tab_home"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
-          <a href="//github.com/strayblues"><i class="fa fa-github-alt fa-2x" aria-hidden="true"></i></a>
-          <a href="//www.facebook.com/hagar.shilo"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
-          <a href="mailto:strayblues@gmail.com"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
-          <a href=""><i class="fa fa-phone-square fa-2x" aria-hidden="true"></i></a>
-
-        </div>
-      </footer>
+      <?php
+        include("includes/contributions.html");
+      ?>
+      <!-- 2nd row of columns -->
+    <?php
+      include("includes/miniprojects.html");
+    ?>
+    <hr>
+    <!-- Contact form -->
+    <?php
+      include("includes/contact2.php");
+    ?>
+    <hr>
+      <!-- icon footer -->
+      <?php
+        include("includes/fa-icons.php");
+      ?>
 
       <footer class="ftr-copy">
         <p>&copy; Hagar Shilo, 2016</p>
