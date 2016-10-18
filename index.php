@@ -26,10 +26,12 @@
 
   </head>
   <body>
+
 <!-- Navbar-->
     <?php
       include("includes/head.html");
     ?>
+
     <div class="container">
       <!-- 1st row of columns -->
       <?php
