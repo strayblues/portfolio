@@ -18,7 +18,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="my-css/css-graypink.css" rel="stylesheet">
+    <link href="my-css/graypink.css" rel="stylesheet">
     <link href="my-css/typing-animation.css" rel="stylesheet">
     <!--
     <link href="my-css/my-css2.css" rel="stylesheet">
@@ -41,7 +41,7 @@
 
     <div class="container contrib">
       <?php
-        include("includes/contributions.html");
+        include("includes/contributions.php");
       ?>
     </div>
     <div class="container">

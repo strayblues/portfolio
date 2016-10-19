@@ -14,7 +14,7 @@
         </div>
         <div>
           <a href="//github.com"><i
-            class="fa fa-github fa-3x" aria-hidden="true"></i></a>
+            class="fa fa-github fa-4x" aria-hidden="true"></i></a>
         </div>
       </div>
     </div>
@@ -32,7 +32,7 @@
       </div>
       <div>
         <a href="//github.com"><i
-          class="fa fa-github fa-3x" aria-hidden="true"></i></a>
+          class="fa fa-github fa-4x" aria-hidden="true"></i></a>
       </div>
     </div>
   </div>
@@ -50,7 +50,7 @@
       </div>
       <div>
         <a href="//github.com/kamomil/Familiar"><i
-          class="fa fa-github fa-3x" aria-hidden="true"></i></a>
+          class="fa fa-github fa-4x" aria-hidden="true"></i></a>
       </div>
     </div>
   </div>
