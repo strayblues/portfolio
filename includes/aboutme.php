@@ -12,7 +12,7 @@
         <div class="modal-body">
           <div class="about-me">
             <p>Hello, World.</p>
-              <p>Rendered far opinions two yet moderate sex striking.
+              <p>Rendered far opinions two yet moderate striking.
                 Sufficient motionless compliment by stimulated assistance at.
                 Convinced resolving extensive agreeable in it on as remainder.
                 Cordially say affection met who propriety him.</p>
