@@ -1,5 +1,13 @@
+/*
+* {
+  direction: ltr;
+}
+*/
 body {
   background-color: #888;
+  background-color: #000;
+
+  color: black;
 }
 
 .row-contrib h3 {
@@ -7,7 +15,7 @@ body {
 }
 
 .row-contrib h1 {
-  color: white;
+  color: black;
 }
 
 .banner {
@@ -111,6 +119,7 @@ a:hover {
   border-color: #444 !important;
 }
 
+
 .btn-default {
   background-color: #fff;
 }
@@ -120,31 +129,20 @@ a:hover {
   border-color: #ddd !important;
 }
 
-.modal-strong {
+.modal-header {
   background-color: #b51e62 !important;
-  color: white;
 }
 
-.modal-light {
-  background-color: #e8aecd;
-  color: #b51e62;
+.modal-header-you {
+  background-color: #e8aecd !important;
 }
 
 .modal-content {
   background-color: #e8aecd !important;
-  color: black;
 }
 
 .pink-heading {
   color: #b51e62;
-}
-
-.gray-heading {
-  color: #888;
-}
-
-.white-heading {
-  color: white;
 }
 
 .icon-holder a {

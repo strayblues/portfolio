@@ -35,7 +35,7 @@ if ($_POST['submit']) {
   <div class="col-md-6">
     <div class="modal-content">
       <form class="form-horizontal" method="post" action="index.php" role="form">
-        <div class="modal-header modal-header-you">
+        <div class="modal-header modal-light">
           <h4 class="pink-heading">ABOUT YOU</h4>
           <?php
             echo $result;?>
