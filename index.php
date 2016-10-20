@@ -9,36 +9,25 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
-<!--    <link href="https://fonts.googleapis.com/css?family=Alef" rel="stylesheet"> -->
     <script src="https://use.fontawesome.com/8f61b97be3.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <title>Hagar Shilo's portfolio</title>
-
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
     <!-- Custom styles for this template -->
     <link href="my-css/graypink.css" rel="stylesheet">
     <link href="my-css/typing-animation.css" rel="stylesheet">
-    <!--
-    <link href="my-css/my-css2.css" rel="stylesheet">
-    -->
-
   </head>
   <body>
-
-<!-- Head without navbar-->
+    <!-- Head without navbar-->
     <?php
       include("includes/head.html");
     ?>
-
     <div class="container">
-      <!-- Contact form + About -->
       <?php
         include("includes/aboutme.php");
       ?>
     </div>
-
     <div class="container contrib">
       <?php
         include("includes/contributions.php");
@@ -50,24 +39,21 @@
       ?>
     </div>
     <div class="container">
-    <!-- Contact form + About -->
-    <?php
-      include("includes/aboutyou.php");
-    ?>
+    <!-- Contact form -->
+      <?php
+        include("includes/aboutyou.php");
+      ?>
     </div>
-
       <!-- icon footer -->
       <div class="container">
       <hr>
       <?php
         include("includes/fa-icons.php");
       ?>
-
       <footer class="ftr-copy">
         <p>&copy; Hagar Shilo, 2016</p>
       </footer>
     </div>
-
     <?php
       include("includes/contact.php");
     ?>
@@ -80,6 +66,5 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://www.atlasestateagents.co.uk/javascript/tether.min.js"></script><!-- Tether for Bootstrap -->
     <script src="js/bootstrap.min.js"></script>
-
   </body>
 </html>

@@ -10,9 +10,6 @@ if ($_POST['submit']) {
   if (!$_POST['msg']){
     $error.="<br/>Did you write your message?";
   }
-  if (!$_POST['check']){
-    $error.="<br/>Are you human?";
-  }
   if ($error) {
     $result="Something is missing: $error";
   } else {
@@ -37,8 +34,11 @@ if ($_POST['submit']) {
       <form class="form-horizontal" method="post" action="index.php" role="form">
         <div class="modal-header">
           <h4 class="modal-light">ABOUT YOU</h4>
-          <?php
-            echo $result;?>
+          <div class="validation">
+            <?php
+              echo $result;
+            ?>
+          </div>
         </div>
 
         <div class="modal-body">
@@ -65,12 +65,6 @@ if ($_POST['submit']) {
                 echo $_POST['msg'];
               ?></textarea>
             </div>
-          </div>
-
-          <div class="checkbox">
-            <label for="checkbox">
-              <input type="checkbox" name="check"> I am human
-            </label>
           </div>
 
         </div>
