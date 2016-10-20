@@ -61,7 +61,8 @@ if ($_POST['submit']) {
 
           <div class="form-group">
             <div class="col-lg-12">
-              <textarea class="form-control" rows="8" placeholder="Your message..." name="msg"><?php
+              <textarea class="form-control" rows="8" placeholder=
+                              "Your message..." name="msg"><?php
                 echo $_POST['msg'];
               ?></textarea>
             </div>
@@ -70,7 +71,8 @@ if ($_POST['submit']) {
         </div>
 
         <div class="modal-footer">
-          <button class="btn btn-primary btn-sm" type="submit" value="Submit" name="submit">Send</button>
+          <button class="btn btn-primary btn-sm" type="submit" value=
+                        "Send" name="submit">Send</button>
         </div>
 
     </form>
