@@ -17,6 +17,7 @@
     <!-- Custom styles for this template -->
     <link href="my-css/graypink.css" rel="stylesheet">
     <link href="my-css/typing-animation.css" rel="stylesheet">
+    <script src="validation.js"></script>
   </head>
   <body>
     <!-- Head without navbar-->

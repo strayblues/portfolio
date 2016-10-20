@@ -228,3 +228,8 @@ a:hover {
   margin-top: 3rem;
   margin-bottom: 2rem;
 }
+
+.confirm {
+  color: red;
+  text-align: center;
+}
