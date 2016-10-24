@@ -51,20 +51,14 @@ h1, h2 {
   margin-top: 0;
 }
 
-h1, h2, h3, h4 {
-  color: white;
-}
-
-/*
 h3 {
   color: #e8aecd;
   font-family: 'Varela Round', sans-serif;
 }
 
-h4 {
-  font-family: 'Montserrat', sans-serif;
+h1, h2, h4 {
+  color: white;
 }
-*/
 
 .row-contrib {
   color: black !important;
@@ -93,7 +87,15 @@ a {
   color: white;
 }
 
-.app-description-white a:link, a:visited {
+.app-description-dark a:link, .app-description-dark a:visited, .app-description-dark a:active {
+  color: #b51e62;
+}
+
+.app-description-dark a:hover {
+  color: white;
+}
+
+.app-description-white a:link, .app-description-white a:visited, .app-description-white a:active {
   color: #e8aecd;
 }
 
@@ -184,12 +186,6 @@ a:hover {
   clear: both;
 }
 
-/*
-.modal-header {
-  color: #EA0047;
-}
-*/
-
 .ftr-copy {
   color: white;
   bottom: 0rem;
@@ -197,7 +193,7 @@ a:hover {
 }
 
 .ftr-icons {
-  color: #F3ABC1;
+  color: #e8aecd;
   height: 6rem;
   left, right: 0rem;
 }
@@ -228,7 +224,7 @@ a:hover {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-size: 130%;
-  color: #F3ABC1;
+  color: #e8aecd;
 }
 
 .btn-code {
