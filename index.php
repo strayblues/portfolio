@@ -11,10 +11,13 @@
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
     <script src="https://use.fontawesome.com/8f61b97be3.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|La+Belle+Aurore|Reenie+Beanie" rel="stylesheet">
     <title>Hagar Shilo's portfolio</title>
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <link href="my-css/graypink.css" rel="stylesheet">
     <link href="my-css/typing-animation.css" rel="stylesheet">
     <script src="validation.js"></script>
@@ -26,7 +29,7 @@
     ?>
     <div class="container">
       <?php
-        include("includes/aboutme.php");
+        include("includes/gray-aboutme.php");
       ?>
     </div>
     <div class="container contrib">
@@ -36,9 +39,15 @@
     </div>
     <div class="container">
       <?php
-        include("includes/miniprojects.html");
+        include("includes/miniprojects.php");
       ?>
     </div>
+    <div class="container">
+      <?php
+        include("includes/workshops.php");
+      ?>
+    </div>
+
     <div class="container">
     <!-- Contact form -->
       <?php

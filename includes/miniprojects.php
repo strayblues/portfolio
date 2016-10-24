@@ -4,10 +4,10 @@
         <div class="col-md-4">
           <div class="thumbnail">
               <div>
-                <h3>Lotto Numbers</h3>
+                <h3>Expense Tracker</h3>
                 <p class="app-description-white">
                   <?php
-                    $p1=file_get_contents("paragraphs/paragraph1.txt");
+                    $p1=file_get_contents("paragraphs/paragraph7.txt");
                     echo $p1;
                   ?>
                 </p>

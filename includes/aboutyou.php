@@ -1,6 +1,6 @@
 
 
-<div class="row row-about">
+<div class="row row-about about">
 
   <div class="col-md-3">
   </div>
@@ -9,7 +9,7 @@
     <div class="modal-content">
       <div class="contact-form form-horizontal">
         <div class="modal-header">
-          <h4 class="modal-light">ABOUT YOU</h4>
+          <h2 class="modal-light">ABOUT YOU</h2>
 
           <div class="confirm"></div>
 
