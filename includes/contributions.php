@@ -2,7 +2,7 @@
   <h1 class="display-4">Collaborative Work</h1>
 
   <div class="col-md-6">
-    <div class="thumbnail">
+    <div class="thumbnail thumbnail-mid">
       <div>
         <h3>ANYWAY</h3>
         <p class="app-description">
