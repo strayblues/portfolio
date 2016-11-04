@@ -7,6 +7,10 @@ h1, h2, .about h4, ftr-copy {
   font-family: 'Indie Flower', cursive;
 }
 
+.fade-in-block {
+  opacity: 0;
+}
+
 .thumbnail-mid {
   margin-bottom: 2.5rem;
 }

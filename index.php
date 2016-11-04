@@ -28,35 +28,35 @@
     <?php
       include("includes/head.html");
     ?>
-    <div class="container">
+    <div class="container fade-in-block">
       <?php
         include("includes/gray-aboutme.php");
       ?>
     </div>
-    <div class="container contrib">
+    <div class="container contrib fade-in-block">
       <?php
         include("includes/contributions.php");
       ?>
     </div>
-    <div class="container">
+    <div class="container fade-in-block">
       <?php
         include("includes/miniprojects.php");
       ?>
     </div>
-    <div class="container">
+    <div class="container fade-in-block">
       <?php
         include("includes/workshops.php");
       ?>
     </div>
 
-    <div class="container">
+    <div class="container fade-in-block">
     <!-- Contact form -->
       <?php
         include("includes/aboutyou.php");
       ?>
     </div>
       <!-- icon footer -->
-      <div class="container">
+      <div class="container fade-in-block">
       <hr>
       <?php
         include("includes/fa-icons.php");
@@ -77,5 +77,6 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://www.atlasestateagents.co.uk/javascript/tether.min.js"></script><!-- Tether for Bootstrap -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="my-js/fade-in.js"></script>
   </body>
 </html>
