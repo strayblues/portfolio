@@ -37,7 +37,7 @@
   <div class="col-md-4">
     <div class="thumbnail">
       <div>
-        <h3>ToDo List</h3>
+        <h3>Converter</h3>
         <p class="app-description-white">
           <?php
             $p4=file_get_contents("paragraphs/paragraph3.txt");
