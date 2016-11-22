@@ -4,7 +4,7 @@
   <div class="col-md-6">
     <div class="thumbnail thumbnail-mid">
       <div>
-        <h3>ANYWAY</h3>
+        <h3>Mandala</h3>
         <p class="app-description">
           <?php
             $p5=file_get_contents("paragraphs/anyway.html");

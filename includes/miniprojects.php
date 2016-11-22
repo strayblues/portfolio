@@ -20,7 +20,7 @@
   <div class="col-md-4">
     <div class="thumbnail thumbnail-mid">
       <div>
-        <h3>Django-powered Blog App</h3>
+        <h3>Blog App</h3>
         <p class="app-description-white">
           <?php
             $p1=file_get_contents("paragraphs/django.html");
@@ -29,7 +29,7 @@
         </p>
       </div>
       <div>
-        <a href=""><i class="fa fa-desktop fa-4x" aria-hidden="true"></i></a>
+        <a href=""><i class="fa fa-desktop fa-3x" aria-hidden="true"></i></a>
         <a href="https://github.com/strayblues/my-first-blog">
           <i class="fa fa-github fa-4x" aria-hidden="true"></i>
         </a>
