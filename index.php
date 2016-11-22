@@ -30,7 +30,7 @@
     ?>
     <div class="container fade-in-block">
       <?php
-        include("includes/gray-aboutme.php");
+        include("includes/aboutme.php");
       ?>
     </div>
     <div class="container contrib fade-in-block">
@@ -43,12 +43,6 @@
         include("includes/miniprojects.php");
       ?>
     </div>
-    <div class="container fade-in-block">
-      <?php
-        include("includes/workshops.php");
-      ?>
-    </div>
-
     <div class="container fade-in-block">
     <!-- Contact form -->
       <?php
