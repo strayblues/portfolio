@@ -1,30 +1,18 @@
-<div class="row row-contrib">
-  <h1 class="display-4">Collaborative Work</h1>
-
-  <div class="col-md-6">
-    <div class="thumbnail thumbnail-mid">
-      <div>
-        <h3>Mandala</h3>
-        <p class="app-description">
-          <?php
-            $p5=file_get_contents("paragraphs/anyway.html");
-            echo $p5;
-          ?>
-        </p>
-      </div>
-    </div>
-  </div>
-
+<div class="row">
+  <h1 class="display-4">Collab</h1>
   <div class="col-md-6">
     <div class="thumbnail">
       <div>
         <h3>Familiar</h3>
-        <p class="app-description">
+        <p class="app-description-white">
           <?php
-            $p6=file_get_contents("paragraphs/familiar.html");
+            $p6=file_get_contents("paragraphs/familiar.txt");
             echo $p6;
           ?>
         </p>
+      </div>
+      <div>
+        <a href="https://github.com/kamomil/familiar"><i class="fa fa-github fa-4x" aria-hidden="true"></i></a>
       </div>
     </div>
   </div>

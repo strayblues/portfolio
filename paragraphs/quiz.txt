@@ -1,1 +1,1 @@
-Built with jQuery Mobile
+A JavaScript knowledge quiz app for mobile devices

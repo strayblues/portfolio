@@ -30,31 +30,26 @@
     ?>
     <div class="container fade-in-block">
       <?php
-        include("includes/aboutme.php");
-      ?>
-    </div>
-    <div class="container contrib fade-in-block">
-      <?php
-        include("includes/contributions.php");
-      ?>
-    </div>
-    <div class="container fade-in-block">
-      <?php
         include("includes/miniprojects.php");
       ?>
     </div>
     <div class="container fade-in-block">
+      <?php
+        include("includes/contributions.php");
+      ?>
+    </div>
     <!-- Contact form -->
+    <div class="container fade-in-block">
       <?php
         include("includes/aboutyou.php");
       ?>
     </div>
       <!-- icon footer -->
-      <div class="container fade-in-block">
-      <hr>
-      <?php
-        include("includes/fa-icons.php");
-      ?>
+    <div class="container fade-in-block">
+    <hr>
+    <?php
+      include("includes/fa-icons.php");
+    ?>
       <footer class="ftr-copy">
         <p>&copy; Hagar Shilo, 2016</p>
       </footer>
