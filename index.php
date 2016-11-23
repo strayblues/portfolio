@@ -33,16 +33,19 @@
         include("includes/miniprojects.php");
       ?>
     </div>
+    <img src="includes/circus.jpg" align="middle" alt="" width="100%" height="300">
     <div class="container fade-in-block">
       <?php
         include("includes/miniprojects2.php");
       ?>
     </div>
+      <img src="includes/train.jpg" align="middle" alt="" width="100%" height="300">
     <div class="container fade-in-block">
       <?php
         include("includes/contributions.php");
       ?>
     </div>
+    <img src="includes/coffee.jpg" align="middle" alt="" width="100%" height="480">
     <!-- Contact form -->
     <div class="container fade-in-block">
       <?php
@@ -59,6 +62,7 @@
         <p>&copy; Hagar Shilo, 2016</p>
       </footer>
     </div>
+    <img src="includes/sea.jpg" align="middle" alt="" width="100%" height="300">
     <?php
       include("includes/contact.php");
     ?>
