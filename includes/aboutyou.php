@@ -9,7 +9,7 @@
     <div class="modal-content">
       <div class="contact-form form-horizontal">
         <div class="modal-header">
-          <h2 class="modal-light">CONTACT</h2>
+          <h2 class="modal-light">Contact me</h2>
 
           <div class="confirm"></div>
 

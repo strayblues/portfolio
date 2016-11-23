@@ -1,5 +1,5 @@
 <div class="row">
-  <h1 class="display-4">Collab</h1>
+  <h1 class="display-4">Collab/Contrib</h1>
   <div class="col-md-6">
     <div class="thumbnail">
       <div>

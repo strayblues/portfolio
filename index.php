@@ -35,6 +35,11 @@
     </div>
     <div class="container fade-in-block">
       <?php
+        include("includes/miniprojects2.php");
+      ?>
+    </div>
+    <div class="container fade-in-block">
+      <?php
         include("includes/contributions.php");
       ?>
     </div>
