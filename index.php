@@ -43,12 +43,6 @@
         include("includes/contributions.php");
       ?>
     </div>
-    <!-- Contact form -->
-    <div class="container fade-in-block">
-      <?php
-        include("includes/aboutyou.php");
-      ?>
-    </div>
       <!-- icon footer -->
     <div class="container fade-in-block">
     <hr>
