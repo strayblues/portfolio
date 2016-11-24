@@ -36,8 +36,8 @@ h1, h2, .about h4, ftr-copy {
 
 .banner {
   background-color: black;
-  color: white;
-  margin-bottom: 0;
+/*  color: white;
+  margin-bottom: 0;*/
 }
 
 .container {
@@ -274,4 +274,9 @@ a:hover {
 .confirm {
   color: red;
   text-align: center;
+}
+
+.intro-img {
+  top: -3.25rem;
+  position: relative;
 }

@@ -24,10 +24,10 @@
     <script src="my-js/validation.js"></script>
   </head>
   <body>
-    <!-- Head without navbar-->
     <?php
       include("includes/head.html");
     ?>
+    <img src="includes/paint.jpg" class="intro-img fade-in-block" width="100%" alt="" height="550">
     <div class="container fade-in-block">
       <?php
         include("includes/miniprojects.php");
@@ -38,7 +38,6 @@
         include("includes/miniprojects2.php");
       ?>
     </div>
-      <img src="includes/circus.jpg" align="middle" alt="" width="100%" height="450">
     <div class="container fade-in-block">
       <?php
         include("includes/contributions.php");
@@ -60,7 +59,7 @@
         <p>&copy; Hagar Shilo, 2016</p>
       </footer>
     </div>
-    <img src="includes/coffee.jpg" align="middle" alt="" width="100%" height="450">
+    <img src="includes/sea.jpg" class="fade-in-block" alt="" width="100%" height="550">
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
