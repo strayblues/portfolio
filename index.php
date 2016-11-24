@@ -27,7 +27,7 @@
     <?php
       include("includes/head.html");
     ?>
-    <img src="includes/paint.jpg" class="intro-img fade-in-block" width="100%" alt="" height="550">
+    <img src="includes/circus.jpg" class="intro-img fade-in-block" width="100%" alt="">
     <div class="container fade-in-block">
       <?php
         include("includes/miniprojects.php");
@@ -38,13 +38,8 @@
         include("includes/miniprojects2.php");
       ?>
     </div>
-    <div class="container fade-in-block">
-      <?php
-        include("includes/contributions.php");
-      ?>
-    </div>
       <!-- icon footer -->
-    <div class="container fade-in-block">
+    <div class="container container-ftr fade-in-block">
     <hr>
     <?php
       include("includes/fa-icons.php");
@@ -53,7 +48,6 @@
         <p>&copy; Hagar Shilo, 2016</p>
       </footer>
     </div>
-    <img src="includes/sea.jpg" class="fade-in-block" alt="" width="100%" height="550">
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
