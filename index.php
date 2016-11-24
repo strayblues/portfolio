@@ -27,7 +27,7 @@
     <?php
       include("includes/head.html");
     ?>
-    <img src="includes/circus.jpg" class="intro-img fade-in-block" width="100%" alt="">
+    <img src="includes/coffee.jpg" class="intro-img fade-in-block" width="100%" alt="" height="400">
     <div class="container fade-in-block">
       <?php
         include("includes/miniprojects.php");
@@ -36,6 +36,18 @@
     <div class="container fade-in-block">
       <?php
         include("includes/miniprojects2.php");
+      ?>
+    </div>
+    <!-- skills and such -->
+    <div class="container fade-in-block">
+      <?php
+        include("includes/aboutme.php");
+      ?>
+    </div>
+    <!-- contact form -->
+    <div class="container fade-in-block">
+      <?php
+        include("includes/aboutyou.php");
       ?>
     </div>
       <!-- icon footer -->

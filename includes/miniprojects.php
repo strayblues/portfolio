@@ -1,5 +1,5 @@
 <div class="row">
-  <h1 class="display-4">Mini Projects</h1>
+  <h1 class="display-4">My Projects</h1>
   <div class="col-md-4">
     <div class="thumbnail thumbnail-mid">
       <div>

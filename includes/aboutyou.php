@@ -2,14 +2,14 @@
 
 <div class="row row-about about">
 
-  <div class="col-md-2">
+  <div class="col-md-0">
   </div>
 
-  <div class="col-md-8">
+  <div class="col-md-12">
     <div class="modal-content">
       <div class="contact-form form-horizontal">
         <div class="modal-header">
-          <h2 class="modal-light">Contact me</h2>
+          <h1 class="modal-light display-4">About You</h1>
 
           <div class="confirm"></div>
 

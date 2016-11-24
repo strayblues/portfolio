@@ -2,7 +2,7 @@
 <div class="row">
   <div class="col-md-12">
     <div class="thumbnail about">
-      <h2>ABOUT ME</h2>
+      <h1 class="display-4">About Me</h1>
       <p>
         <?php
           $p1=file_get_contents("paragraphs/aboutme.html");
