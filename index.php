@@ -27,7 +27,7 @@
     <?php
       include("includes/head.html");
     ?>
-    <img src="includes/coffee.jpg" class="intro-img fade-in-block" width="100%" alt="" height="400">
+    <img src="images/ducks.jpg" class="intro-img fade-in-block" width="100%" alt="" height="400">  
     <div class="container fade-in-block">
       <?php
         include("includes/miniprojects.php");

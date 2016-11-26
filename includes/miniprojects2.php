@@ -17,7 +17,7 @@
     </div>
   </div>
   <div class="col-md-4">
-    <div class="thumbnail">
+    <div class="thumbnail thumbnail-mid">
       <div>
         <h3>Familiar</h3>
         <p class="app-description-white">
@@ -38,7 +38,7 @@
         <h3>Blog</h3>
         <p class="app-description-white">
           <?php
-            $p1=file_get_contents("paragraphs/django.html");
+            $p1=file_get_contents("paragraphs/django.txt");
             echo $p1;
           ?>
         </p>

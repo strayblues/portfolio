@@ -1,1 +1,1 @@
-A drawing app
+My kaleidoscope-inspired drawing program

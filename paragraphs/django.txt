@@ -1,0 +1,1 @@
+A django-powered blog app with posts and dynamically added comments

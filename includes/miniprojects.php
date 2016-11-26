@@ -1,12 +1,13 @@
-<div class="row">
-  <h1 class="display-4">My Projects</h1>
+<h1 class="display-4">My Work</h1>
+
+<div class="row row-projects">
   <div class="col-md-4">
     <div class="thumbnail thumbnail-mid">
       <div>
         <h3>ToDo List</h3>
         <p class="app-description-white">
           <?php
-            $p4=file_get_contents("paragraphs/ng.html");
+            $p4=file_get_contents("paragraphs/ng.txt");
             echo $p4;
           ?>
         </p>
@@ -35,7 +36,7 @@
     </div>
   </div>
   <div class="col-md-4">
-    <div class="thumbnail thumbnail-mid">
+    <div class="thumbnail">
       <div>
         <h3>Lotto</h3>
         <p class="app-description-white">

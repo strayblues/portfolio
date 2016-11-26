@@ -1,11 +1,5 @@
-
-
 <div class="row row-about about">
-
-  <div class="col-md-0">
-  </div>
-
-  <div class="col-md-12">
+  <div class="col-md-6">
     <div class="modal-content">
       <div class="contact-form form-horizontal">
         <div class="modal-header">
@@ -35,7 +29,9 @@
       <div class="modal-footer">
         <button class="btn btn-primary btn-sm" type="submit" value="Send" onclick="isValidForm()">Send</button>
       </div>
-
     </div>
+  </div>
+  <div class="col-md-6">
+    <img src="images/unicorn_duckie.png" alt="" style="float: right; width: 90%;"></img>
   </div>
 </div>
