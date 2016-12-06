@@ -1,1 +1,1 @@
-A simple hybrid app that generates numbers. You can set the number of numbers you want generated and their range.
+My first hybrid mobile app, designed with jQuery Mobile. It stores your settings and generates random numbers. You can choose how many numbers to generate and in what range.  

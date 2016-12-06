@@ -1,1 +1,1 @@
-My kaleidoscope-inspired drawing program
+A kaleidoscope-inspired drawing tool

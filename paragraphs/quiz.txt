@@ -1,1 +1,1 @@
-A JavaScript knowledge quiz app for mobile devices
+A JavaScript knowledge quiz app for mobile devices. The test contains 10 randomly selected questions. There is no time limit. You will get 1 point for each correct answer. At the end of the Quiz, your total score will be displayed. 
