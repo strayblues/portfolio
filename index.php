@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <link rel="icon" href="favicon.ico">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Hagar's web and mobile portfolio">
+    <meta name="author" content="Hagar Shilo">
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
     <script src="https://use.fontawesome.com/8f61b97be3.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
@@ -27,7 +27,7 @@
     <?php
       include("includes/head.html");
     ?>
-    <img src="images/ducks.jpg" class="intro-img fade-in-block" width="100%" alt="" height="400">  
+    <img src="images/ducks.jpg" class="intro-img fade-in-block" width="100%" alt="" height="400">
     <div class="container fade-in-block">
       <?php
         include("includes/miniprojects.php");
