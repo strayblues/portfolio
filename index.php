@@ -29,13 +29,10 @@
     ?>
     <div class="container fade-in-block">
       <?php
-        include("includes/miniprojects.php");
+        include("includes/projects1.php");
       ?>
     </div>
     <div class="container fade-in-block">
-      <?php
-        include("includes/miniprojects2.php");
-      ?>
     </div>
     <!-- skills and such -->
     <div class="container fade-in-block">

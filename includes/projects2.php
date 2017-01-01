@@ -1,22 +1,5 @@
 <div class="row">
-    <div class="col-md-4">
-      <div class="thumbnail thumbnail-mid">
-        <div>
-          <h3>ToDo List</h3>
-          <p class="app-description-white">
-            <?php
-              $p4=file_get_contents("paragraphs/ng.txt");
-              echo $p4;
-            ?>
-          </p>
-        </div>
-        <div>
-          <a href=""><i class="fa fa-android fa-4x" aria-hidden="true"></i></a>
-          <a href=""><i class="fa fa-github fa-4x" aria-hidden="true"></i></a>
-        </div>
-      </div>
-    </div>
-  <div class="col-md-4">
+  <div class="col-md-6">
     <div class="thumbnail thumbnail-mid">
       <div>
         <h3>Familiar</h3>
@@ -32,7 +15,7 @@
       </div>
     </div>
   </div>
-  <div class="col-md-4">
+  <div class="col-md-6">
     <div class="thumbnail thumbnail-mid">
       <div>
         <h3>Blog</h3>
