@@ -1,5 +1,21 @@
 <div class="row">
-  <div class="col-md-6">
+  <div class="col-md-4">
+    <div class="thumbnail thumbnail-mid">
+      <div>
+        <h3>External Bagrut Community</h3>
+        <p class="app-description-white">
+          <?php
+            $p6=file_get_contents("paragraphs/externit.txt");
+            echo $p6;
+          ?>
+        </p>
+      </div>
+      <div>
+        <a href="https://externit.hagarsh.com"><i class="fa fa-desktop fa-4x" aria-hidden="true"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
     <div class="thumbnail thumbnail-mid">
       <div>
         <h3>Familiar</h3>
@@ -15,7 +31,7 @@
       </div>
     </div>
   </div>
-  <div class="col-md-6">
+  <div class="col-md-4">
     <div class="thumbnail thumbnail-mid">
       <div>
         <h3>Blog</h3>

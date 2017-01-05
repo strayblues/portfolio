@@ -1,4 +1,4 @@
-<h1 class="display-4">My Work</h1>
+<h1 class="display-4">My Projects</h1>
 <div class="row row-projects">
   <div class="col-md-4">
     <div class="thumbnail thumbnail-mid">
@@ -6,7 +6,7 @@
         <h3>Mandala</h3>
         <p class="app-description-white">
           <?php
-            $p5=file_get_contents("paragraphs/mandala.txt");
+            $p5=file_get_contents("paragraphs/mandala.html");
             echo $p5;
           ?>
         </p>
@@ -29,7 +29,7 @@
         </p>
       </div>
       <div>
-        <a href=""><i class="fa fa-android fa-4x" aria-hidden="true"></i></a>
+        <a href="https://hagarsh.com/quiz"><i class="fa fa-android fa-4x" aria-hidden="true"></i></a>
         <a href="https://github.com/strayblues/android-js-quiz"><i class="fa fa-github fa-4x" aria-hidden="true"></i></a>
       </div>
     </div>
@@ -37,7 +37,7 @@
   <div class="col-md-4">
     <div class="thumbnail thumbnail-mid">
       <div>
-        <h3>Angular ToDo List</h3>
+        <h3>ToDo List</h3>
         <p class="app-description-white">
           <?php
             $p4=file_get_contents("paragraphs/ng.txt");

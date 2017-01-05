@@ -1,7 +1,8 @@
-<div class="row row-about about">
+<div class="row row-about about fade-in-block">
   <div class="col-md-12">
     <h2>Education & Workshops</h2>
     <ul>
+      <li>Java for Android Development, She Codes, 2017-</li>
       <li>Certificate of Front End Development, Holon Institute of Technology, 2016</li>
       <li>ngGirls workshop, TLV, November 2016</li>
       <li>Django Girls workshop, TLV, May 2016</li>

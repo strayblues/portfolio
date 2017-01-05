@@ -1,1 +1,1 @@
-A mobile app built with Angular 2
+A mobile app built with Angular 2. Will probably get turned into a shopping list app in the future.
