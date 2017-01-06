@@ -11,7 +11,7 @@
         </p>
       </div>
       <div>
-        <a href="https://externit.hagarsh.com"><i class="fa fa-desktop fa-4x" aria-hidden="true"></i></a>
+        <a href="//externit.hagarsh.com"><i class="fa fa-desktop fa-4x" aria-hidden="true"></i></a>
       </div>
     </div>
   </div>
