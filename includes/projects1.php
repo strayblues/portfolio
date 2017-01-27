@@ -16,13 +16,13 @@
         </p>
         <div class="container mandala-img">
           <div class="col-sm-4">
-            <img src="images/cake.png" alt="cake mandala" width=120%>
+            <img src="images/cake.png" alt="cake mandala" width=100%>
           </div>
           <div class="col-sm-4">
-            <img src="images/pandala.png" alt="panda mandala" width=120%>
+            <img src="images/pandala.png" alt="panda mandala" width=100%>
           </div>
           <div class="col-sm-4">
-            <img src="images/broccoli.png" alt="broccoli mandala" width=120%>
+            <img src="images/broccoli.png" alt="broccoli mandala" width=100%>
 
           </div>
         </div>
