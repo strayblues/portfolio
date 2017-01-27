@@ -29,7 +29,7 @@
     <!-- Custom styles for this template -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
-    <link href="my-css/my-style.css" rel="stylesheet">
+    <link href="my-css/theme.css" rel="stylesheet">
     <link href="my-css/typing-animation.css" rel="stylesheet">
     <script src="my-js/validation.js"></script>
   </head>

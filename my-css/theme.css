@@ -278,12 +278,7 @@ a:hover {
   vertical-align: bottom;
   bottom: 0rem;
 }
-/*
-.top-buffer {
-  margin-top: 3rem;
-  margin-bottom: 2rem;
-}
-*/
+
 .confirm {
   color: red;
   text-align: center;
@@ -292,4 +287,13 @@ a:hover {
 .intro-img {
   top: -3.25rem;
   position: relative;
+}
+
+.first {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.mandala-img {
+  margin-left: -3rem;
 }

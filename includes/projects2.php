@@ -1,40 +1,27 @@
+<h1 class="display-4">Workshop Projects</h1>
 <div class="row">
-  <div class="col-md-4">
+  <div class="col-md-6">
     <div class="thumbnail thumbnail-mid">
       <div>
-        <h3>External Bagrut Community</h3>
+        <h3>Angular 2 ToDo List</h3>
         <p class="app-description-white">
           <?php
-            $p6=file_get_contents("paragraphs/externit.txt");
-            echo $p6;
+            $p4=file_get_contents("paragraphs/ng.txt");
+            echo $p4;
           ?>
         </p>
       </div>
       <div>
-        <a href="//externit.hagarsh.com"><i class="fa fa-desktop fa-4x" aria-hidden="true"></i></a>
+        <a href=""><i class="fa fa-android fa-4x" aria-hidden="true"></i></a>
+        <a href=""><i class="fa fa-github fa-4x" aria-hidden="true"></i></a>
       </div>
     </div>
   </div>
-  <div class="col-md-4">
+
+  <div class="col-md-6">
     <div class="thumbnail thumbnail-mid">
       <div>
-        <h3>Familiar</h3>
-        <p class="app-description-white">
-          <?php
-            $p6=file_get_contents("paragraphs/familiar.txt");
-            echo $p6;
-          ?>
-        </p>
-      </div>
-      <div>
-        <a href="https://github.com/kamomil/familiar"><i class="fa fa-github fa-4x" aria-hidden="true"></i></a>
-      </div>
-    </div>
-  </div>
-  <div class="col-md-4">
-    <div class="thumbnail thumbnail-mid">
-      <div>
-        <h3>Blog</h3>
+        <h3>django Blog</h3>
         <p class="app-description-white">
           <?php
             $p1=file_get_contents("paragraphs/django.txt");
