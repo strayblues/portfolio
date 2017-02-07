@@ -145,7 +145,7 @@ a:hover {
   background-color: black;
 }
 
-.modal .btn {
+.btn {
   float: right;
 }
 
@@ -295,4 +295,8 @@ a:hover {
 
 .mandala-img {
   margin-left: -3rem;
+}
+
+.floor {
+  bottom: -5rem;
 }
