@@ -60,7 +60,7 @@
       ?>
     </div>
       <!-- icon footer -->
-    <div class="container container-ftr fade-in-block">
+    <div class="container fade-in-block">
     <hr>
     <?php
       include("includes/fa-icons.php");

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Website contact form</title>
+  <script>
+  // Use "_" to save time, space and typing
+  function _(id){ return document.getElementById(id); }
+
+  // Our submit function
+  function submitForm(){
+	_("mybtn").disabled = true; // The user can't double click the btn
+	_("status").innerHTML = 'Please wait...';
+	var formdata = new FormData(); // An object
+	formdata.append( "n", _("n").value ); // The value is what the use typed in
+	formdata.append( "e", _("e").value );
+	formdata.append( "m", _("m").value );
+	var ajax = new XMLHttpRequest();
+	ajax.open( "POST", "parser.php" );
+	ajax.onreadystatechange = function() {
+		if(ajax.readyState == 4 && ajax.status == 200) {
+			if(ajax.responseText == "success"){
+        // Confirm that the email was sent
+				_("my_form").innerHTML = '<h2>Thanks '+_("n").value+', your message has been sent.</h2>';
+			} else { // In the event of data processing failure:
+				_("status").innerHTML = ajax.responseText; // Output a msg about why the email wasn't sent
+				_("mybtn").disabled = false; // Re-enable the buttons so user can try again
+			}
+		}
+	}
+	ajax.send( formdata );
+}
+
+  </script>
+</head>
+<body>
+  <form id="my_form" onsubmit="submitForm(); return false;">
+    <p><input id="n" placeholder="Name" required></p>
+    <p><input id="e" placeholder="Email Address" type="email" required></p>
+    <textarea id="m" placeholder="write your message here" rows="10" required>
+    </textarea>
+    <p><input id="mybtn" type="submit" value="Send"> <span id="status"></span></p>
+  </form>
+</body>
+</html>

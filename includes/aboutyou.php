@@ -1,38 +1,82 @@
-<div class="row row-about about">
-  <div class="col-md-6">
-    <div class="modal-content">
-      <div class="contact-form form-horizontal">
-        <div class="modal-header">
-          <h1 class="modal-light display-4">About You</h1>
-          <h1>NOT READY YETTT</h1>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Website contact form</title>
+  <script>
+  // Use "_" to save time, space and typing
+  function _(id){ return document.getElementById(id); }
 
-          <div class="confirm"></div>
+  // Our submit function
+  function submitForm(){
+	_("send").disabled = true; // The user can't double click the btn
+  $(".status").html("Please wait...");
+//	_("status").innerHTML = 'Please wait...';
+	var formdata = new FormData(); // An object
+	formdata.append( "n", _("n").value ); // The value is what the use typed in
+	formdata.append( "e", _("e").value );
+	formdata.append( "m", _("m").value );
+	var ajax = new XMLHttpRequest();
+	ajax.open( "POST", "parser.php" );
+	ajax.onreadystatechange = function() {
+		if(ajax.readyState == 4 && ajax.status == 200) {
+			if(ajax.responseText == "success"){
+        // Confirm that the email was sent
+        $(".status").html("Sent!"); // instead of the line after
+				_("status").innerHTML = '<h2>Thanks '+_("n").value+', your message has been sent.</h2>';
+			} else { // In the event of data processing failure:
+        // Output a msg about why the email wasn't sent
+				_("status").innerHTML = ajax.responseText;
+        // Re-enable the buttons so user can try again
+				_("send").disabled = false;
+			}
+      _("myform").reset();
+		}
+	}
+	ajax.send( formdata );
+}
+  </script>
+</head>
+<body>
+  <div class="row row-about about">
+    <div class="col-md-6">
+      <div class="modal-content">
+        <div class="contact-form form-horizontal">
+          <div class="modal-header">
+            <h1 class="modal-light display-4">About You</h1>
+            <h1>NOT READY YETTT</h1>
+            <form id="my_form" onsubmit="submitForm(); return false;">
+                <div class="modal-body">
+                  <div class="form-group">
+                    <div class="col-lg-12">
+                      <input type="text" id="n" placeholder="Your name" class="form-control" required>
+                    </div>
+                  </div><!--/form-group-->
+                  <div class="form-group">
+                    <div class="col-lg-12">
+                      <input type="email" id="e" placeholder="you@example.com" class="form-control" required>
+                    </div>
+                  </div><!--/form-group-->
+                  <div class="form-group">
+                    <div class="col-lg-12">
+                      <textarea type="text" rows="8" id="m" placeholder="Your message..." class="form-control" required></textarea>
+                    </div>
+                  </div><!--/form-group-->
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button class="btn btn-primary btn-sm" id="send" type="submit"
+                value="Send" onclick="">Send</button>
+              </div>
+              <div class="status"></div>
+            </div><!--/form class-->
+        </form>
 
-          <div class="modal-body">
-            <div class="form-group">
-              <div class="col-lg-12">
-                <input type="text" id="name" placeholder="Your name" class="form-control">
-              </div>
-            </div><!--/form-group-->
-            <div class="form-group">
-              <div class="col-lg-12">
-                <input type="email" id="email" placeholder="you@example.com" class="form-control">
-              </div>
-            </div><!--/form-group-->
-            <div class="form-group">
-              <div class="col-lg-12">
-                <textarea type="text" rows="8" id="msg" placeholder="Your message..." class="form-control"></textarea>
-              </div>
-            </div><!--/form-group-->
-          </div>
-        </div>
-      </div><!--/form-->
-      <div class="modal-footer">
-        <button class="btn btn-primary btn-sm" type="submit" value="Send" onclick="isValidForm()">Send</button>
-      </div>
+      </div> <!-- /modal content -->
+    </div>
+    <div class="col-md-6">
+      <img src="images/unicorn_duckie.png" alt="Unicorn duckie" style="float: right; width: 90%;"></img>
     </div>
   </div>
-  <div class="col-md-6">
-    <img src="images/unicorn_duckie.png" alt="" style="float: right; width: 90%;"></img>
-  </div>
-</div>
+</body>
+</html>
