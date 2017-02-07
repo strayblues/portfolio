@@ -1,8 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>Website contact form</title>
+
   <script>
   // Use "_" to save time, space and typing
   function _(id){ return document.getElementById(id); }
@@ -22,22 +18,20 @@
 		if(ajax.readyState == 4 && ajax.status == 200) {
 			if(ajax.responseText == "success"){
         // Confirm that the email was sent
-        $(".status").html("Sent!"); // instead of the line after
-				_("status").innerHTML = '<h2>Thanks '+_("n").value+', your message has been sent.</h2>';
+        $(".status").html('Thanks '+_("n").value+', your message has been sent.');
+        setTimeout(function(){_("send").disabled=false}, 2500);
 			} else { // In the event of data processing failure:
         // Output a msg about why the email wasn't sent
-				_("status").innerHTML = ajax.responseText;
+				$(".status").html(ajax.responseText);
         // Re-enable the buttons so user can try again
 				_("send").disabled = false;
 			}
-      _("myform").reset();
 		}
 	}
 	ajax.send( formdata );
 }
   </script>
-</head>
-<body>
+
   <div class="row row-about about">
     <div class="col-md-6">
       <div class="modal-content">
@@ -78,5 +72,3 @@
       <img src="images/unicorn_duckie.png" alt="Unicorn duckie" style="float: right; width: 90%;"></img>
     </div>
   </div>
-</body>
-</html>
