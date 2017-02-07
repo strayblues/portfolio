@@ -1,6 +1,7 @@
 <p class="about">
-  My name is Hagar Shilo. I am developing in JS and related technologies.
+  My name is Hagar Shilo.
   I began to take an interest in web and mobile development in early 2016.
+  I develop in JS and related technologies.
   Here's what I know and what I can do:
 </p>
 <div class="row row-about about">
