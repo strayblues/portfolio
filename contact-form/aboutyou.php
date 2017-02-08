@@ -31,7 +31,7 @@
 	ajax.send( formdata );
 }
   </script>
-<div class="row">
+<div class="row row-about about">
   <div class="col-md-6">
     <div class="modal-content">
       <div class="contact-form form-horizontal">
