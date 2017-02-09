@@ -19,7 +19,7 @@
 			if(ajax.responseText == "success"){
         // Confirm that the email was sent
         $(".status").html('<p>Thanks '+_("n").value+', your message has been sent.</p>');
-        setTimeout(function(){_("send").disabled=false}, 2500);
+        setTimeout(function(){_("send").disabled=false}, 5000);
 			} else { // In the event of data processing failure:
         // Output a msg about why the email wasn't sent
 				$(".status").html(ajax.responseText);
