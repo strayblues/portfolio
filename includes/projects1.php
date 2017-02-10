@@ -42,7 +42,7 @@
       <div>
         <h3>External Bagrut Info</h3>
         <div class="first">
-          <a href="//externit.hagarsh.com"><i class="fa fa-desktop fa-4x" aria-hidden="true"></i></a>
+          <a target="_blank" href="//externit.hagarsh.com"><i class="fa fa-desktop fa-4x" aria-hidden="true"></i></a>
           <a href="https://github.com/strayblues/external-bagrut"><i class="fa fa-github fa-4x" aria-hidden="true"></i></a>
         </div>
         <p class="app-description-white">
