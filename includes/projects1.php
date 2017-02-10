@@ -5,7 +5,7 @@
       <div>
         <h3>Mandala</h3>
         <div class="first">
-          <a id="popup-mandala" href="#" href="https://strayblues.github.io/mandala/"><i class="fa fa-desktop fa-4x" aria-hidden="true"></i></a>
+          <a id="popup-mandala" href="#"><i class="fa fa-desktop fa-4x" aria-hidden="true"></i></a>
           <a href="https://github.com/strayblues/mandala"><i class="fa fa-github fa-4x" aria-hidden="true"></i></a>
         </div>
         <p class="app-description-white">
