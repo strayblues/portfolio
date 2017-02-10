@@ -2,7 +2,6 @@
   <div class="col-md-12">
     <h2>Education</h2>
     <ul>
-      <li>Android Development, She Codes Academy, 2017-</li>
       <li>Certificate of Front End Development, Holon Institute of Technology, 2016</li>
       <li>ngGirls workshop, TLV, November 2016</li>
       <li>Django Girls workshop, TLV, May 2016</li>

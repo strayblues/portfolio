@@ -31,7 +31,6 @@
       rel="stylesheet">
     <link href="my-css/theme.css" rel="stylesheet">
     <link href="my-css/typing-animation.css" rel="stylesheet">
-    <script src="my-js/validation.js"></script>
   </head>
   <body>
     <?php
@@ -78,6 +77,6 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://www.atlasestateagents.co.uk/javascript/tether.min.js"></script><!-- Tether for Bootstrap -->
     <script src="js/bootstrap.min.js"></script>
-    <script src="my-js/fade-in.js"></script>
+    <script src="my-js/main.js"></script>
   </body>
 </html>

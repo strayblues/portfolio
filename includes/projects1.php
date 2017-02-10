@@ -33,13 +33,12 @@
       <div>
         <h3>JavaScript Quiz</h3>
         <div class="first">
-          <a href="https://hagarsh.com/quiz"><i class="fa fa-android fa-4x" aria-hidden="true"></i></a>
-          <a href="https://strayblues.github.io/quiz/"><i class="fa fa-desktop fa-4x" aria-hidden="true"></i></a>
+          <a id="popup-quiz" href="#"><i class="fa fa-desktop fa-4x" aria-hidden="true"></i></a>
           <a href="https://github.com/strayblues/android-js-quiz"><i class="fa fa-github fa-4x" aria-hidden="true"></i></a>
         </div>
         <p class="app-description-white">
           <?php
-            $p2=file_get_contents("paragraphs/quiz.txt");
+            $p2=file_get_contents("paragraphs/quiz.html");
             echo $p2;
           ?>
         </p>

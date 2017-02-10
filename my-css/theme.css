@@ -300,3 +300,13 @@ a:hover {
 .floor {
   bottom: -5rem;
 }
+
+.fancy-div {
+  color: #333;
+  background-color: #999;
+  padding: 1rem;
+}
+
+.settings-path {
+  color: black;
+}
