@@ -8,7 +8,7 @@ $('#popup-mandala').click(function(){
   var myWindow = window.open("https://strayblues.github.io/mandala/", "mandala", "width=900,height=600");
 });
 
-// Smooth scrollin' effect
+// Scrollin' effect
 function scrollReveal() {
   /* Check the location of each desired element */
   $('.fade-in-block').each(function(i) {
