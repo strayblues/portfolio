@@ -5,7 +5,7 @@
       <div>
         <h3>Mandala</h3>
         <div class="first">
-          <a href="https://strayblues.github.io/mandala/"><i class="fa fa-desktop fa-4x" aria-hidden="true"></i></a>
+          <a id="popup-mandala" href="#" href="https://strayblues.github.io/mandala/"><i class="fa fa-desktop fa-4x" aria-hidden="true"></i></a>
           <a href="https://github.com/strayblues/mandala"><i class="fa fa-github fa-4x" aria-hidden="true"></i></a>
         </div>
         <p class="app-description-white">
@@ -14,16 +14,8 @@
             echo $p5;
           ?>
         </p>
-        <div class="container mandala-img">
-          <div class="col-sm-4">
+        <div class="container mandala-img col-sm-12">
             <img src="images/cake.png" alt="cake mandala" width=100%>
-          </div>
-          <div class="col-sm-4">
-            <img src="images/pandala.png" alt="panda mandala" width=100%>
-          </div>
-          <div class="col-sm-4">
-            <img src="images/broccoli.png" alt="broccoli mandala" width=100%>
-          </div>
         </div>
       </div>
     </div>

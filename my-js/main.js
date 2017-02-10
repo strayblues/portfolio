@@ -3,6 +3,12 @@ $('#popup-quiz').click(function(){
   var myWindow = window.open("quiz/main.html", "quiz", "width=400,height=600");
 });
 
+// Popup for Mandala
+$('#popup-mandala').click(function(){
+  var myWindow = window.open("https://strayblues.github.io/mandala/", "mandala", "width=900,height=600");
+});
+
+
 // Smooth scrollin' effect
 function scrollReveal() {
   /* Check the location of each desired element */
