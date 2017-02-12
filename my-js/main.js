@@ -1,3 +1,7 @@
+
+// div of android installation instructions initially hidden
+$(".inner-div").slideUp(1);
+
 // Scrollin' effect
 function scrollReveal() {
   /* Check the location of each desired element */
@@ -36,6 +40,11 @@ $('#popup-mandala').click(function(){
 });
 
 // Slide effect in thumbnail
-$(function(){
-$(".inner-div").slideUp(1).slideDown(1500);
+$("#slide-android").click(function(){
+    $(".inner-div").slideToggle(1000);
 });
+/*
+$(function(){
+$(".inner-div").slideUp(1).slideToggle(1500);
+});
+*/

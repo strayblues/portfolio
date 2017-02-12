@@ -14,7 +14,7 @@
             echo $p5;
           ?>
         </p>
-        <div class="container mandala-img inner-div col-sm-12">
+        <div class="container mandala-img col-sm-12">
             <img src="images/cake.png" alt="cake mandala" width=100%>
         </div>
       </div>

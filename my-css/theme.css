@@ -307,10 +307,22 @@ a:hover {
   padding: 1rem;
 }
 
-.settings-path {
-  color: black;
+.inner-div a:link, .inner-div a:visited, .inner-div a:active {
+  color: #99ff14 !important;
 }
 
+.inner-div a:hover {
+  color: black !important;
+}
+
+.settings-path {
+  color: #99ff14;
+}
+/*
+.android-text a:link {
+  color: lime;
+}
+*/
 
 #text-animation{
   color: lime;
