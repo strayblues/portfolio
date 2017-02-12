@@ -301,7 +301,7 @@ a:hover {
   bottom: -5rem;
 }
 
-.fancy-div {
+.inner-div {
   color: #333;
   background-color: #999;
   padding: 1rem;
@@ -309,4 +309,38 @@ a:hover {
 
 .settings-path {
   color: black;
+}
+
+
+#text-animation{
+  color: lime;
+  font-family: "Courier";
+  font-size: 1.25rem;
+  margin: 0 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 35em;
+  animation: type 4s steps(60, end);
+}
+
+span{
+  animation: blink 1s infinite;
+}
+
+@keyframes type{
+  from { width: 0; }
+}
+
+@keyframes type2{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; }
+}
+
+@keyframes blink{
+  to{opacity: .0;}
+}
+
+::selection{
+  background: black;
 }

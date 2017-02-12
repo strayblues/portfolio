@@ -14,7 +14,7 @@
             echo $p5;
           ?>
         </p>
-        <div class="container mandala-img col-sm-12">
+        <div class="container mandala-img inner-div col-sm-12">
             <img src="images/cake.png" alt="cake mandala" width=100%>
         </div>
       </div>
@@ -28,7 +28,7 @@
           <a id="popup-quiz" href="#"><i class="fa fa-desktop fa-4x" aria-hidden="true"></i></a>
           <a href="https://github.com/strayblues/android-js-quiz"><i class="fa fa-github fa-4x" aria-hidden="true"></i></a>
         </div>
-        <p class="app-description-white">
+        <p id="slide-down" class="app-description-white">
           <?php
             $p2=file_get_contents("paragraphs/quiz.html");
             echo $p2;

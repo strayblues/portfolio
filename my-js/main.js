@@ -1,13 +1,3 @@
-// Popup for the JS quiz
-$('#popup-quiz').click(function(){
-  var myWindow = window.open("quiz/main.html", "quiz", "width=400,height=600");
-});
-
-// Popup for Mandala
-$('#popup-mandala').click(function(){
-  var myWindow = window.open("https://strayblues.github.io/mandala/", "mandala", "width=900,height=600");
-});
-
 // Scrollin' effect
 function scrollReveal() {
   /* Check the location of each desired element */
@@ -30,7 +20,22 @@ function scrollReveal() {
 $(document).ready(function() {
     // When page is loaded...
     scrollReveal();
-    // Every time the window is scrolled...
+    // Every time the window is scrolled down...
     $(window).scroll(scrollReveal);
 
+});
+
+// Popup for the JS quiz
+$('#popup-quiz').click(function(){
+  var myWindow = window.open("quiz/main.html", "quiz", "width=400,height=600");
+});
+
+// Popup for Mandala
+$('#popup-mandala').click(function(){
+  var myWindow = window.open("https://strayblues.github.io/mandala/", "mandala", "width=900,height=600");
+});
+
+// Slide effect in thumbnail
+$(function(){
+$(".inner-div").slideUp(1).slideDown(1500);
 });

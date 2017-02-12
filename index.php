@@ -30,7 +30,6 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
     <link href="my-css/theme.css" rel="stylesheet">
-    <link href="my-css/typing-animation.css" rel="stylesheet">
   </head>
   <body>
     <?php
