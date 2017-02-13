@@ -8,15 +8,10 @@
           <a id="popup-mandala" href="#"><i class="fa fa-desktop fa-4x" aria-hidden="true"></i></a>
           <a href="https://github.com/strayblues/mandala"><i class="fa fa-github fa-4x" aria-hidden="true"></i></a>
         </div>
-        <p class="app-description-white">
           <?php
             $p5=file_get_contents("paragraphs/mandala.html");
             echo $p5;
           ?>
-        </p>
-        <div class="container mandala-img col-sm-12">
-            <img src="images/cake.png" alt="cake mandala" width=100%>
-        </div>
       </div>
     </div>
   </div>

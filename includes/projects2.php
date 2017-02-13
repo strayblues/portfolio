@@ -12,7 +12,6 @@
         </p>
       </div>
       <div>
-        <a href=""><i class="fa fa-android fa-4x" aria-hidden="true"></i></a>
         <a href=""><i class="fa fa-github fa-4x" aria-hidden="true"></i></a>
       </div>
     </div>
@@ -30,7 +29,6 @@
         </p>
       </div>
       <div>
-        <a href=""><i class="fa fa-desktop fa-4x" aria-hidden="true"></i></a>
         <a href="https://github.com/strayblues/my-first-blog">
           <i class="fa fa-github fa-4x" aria-hidden="true"></i>
         </a>

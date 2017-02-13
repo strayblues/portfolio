@@ -256,7 +256,7 @@ a:hover {
 }
 
 .fa-android:hover {
-  color: #ceed6a;
+  color: #ccff89;
 }
 
 .fa-github {
@@ -267,17 +267,33 @@ a:hover {
   color: #444;
 }
 
+.fa-cogs {
+  color: #f78;
+}
+
+.fa-cogs:hover {
+  color: #ffa3ae;
+}
+
+.fa-desktop {
+  color: white;
+}
+
+.fa-desktop:hover {
+  color: #d1d1d1;
+}
+
 .fa {
   margin-left: 1rem;
 }
-
+/*
 .fa-3x {
   display: inline-block;
   text-align: center;
   vertical-align: bottom;
   bottom: 0rem;
 }
-
+*/
 .status{
   color: red;
   text-align: center;
@@ -307,11 +323,11 @@ a:hover {
   padding: 1rem;
 }
 
-.inner-div a:link, .inner-div a:visited, .inner-div a:active {
+.inner-android a:link, .inner-div a:visited, .inner-div a:active {
   color: #99ff14 !important;
 }
 
-.inner-div a:hover {
+.inner-android a:hover {
   color: black !important;
 }
 
@@ -323,6 +339,14 @@ a:hover {
   color: lime;
 }
 */
+
+#slide-mandala a {
+  color: pink !important;
+}
+
+#slide-mandala a:hover {
+  color: black !important;
+}
 
 #text-animation{
   color: lime;

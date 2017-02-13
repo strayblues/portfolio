@@ -39,10 +39,16 @@ $('#popup-mandala').click(function(){
   var myWindow = window.open("https://strayblues.github.io/mandala/", "mandala", "width=900,height=600");
 });
 
-// Slide effect in thumbnail
-$("#slide-android").click(function(){
-    $(".inner-div").slideToggle(1000);
+// Slide effect on Mandala
+$("#slide-mandala").click(function(){
+    $(".inner-mandala").slideToggle(1000);
 });
+
+// Slide effect in Android JS quiz thumbnail
+$("#slide-android").click(function(){
+    $(".inner-android").slideToggle(1000);
+});
+
 /*
 $(function(){
 $(".inner-div").slideUp(1).slideToggle(1500);
