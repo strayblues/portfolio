@@ -1,7 +1,4 @@
 
-// div of android installation instructions initially hidden
-$(".inner-div").slideUp(1);
-
 // Scrollin' effect
 function scrollReveal() {
   /* Check the location of each desired element */

@@ -35,7 +35,7 @@
     <?php
       include("includes/head.html");
     ?>
-    <div class="container fade-in-block">
+    <div class="container">
       <?php
         include("includes/projects1.php");
       ?>

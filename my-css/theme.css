@@ -321,6 +321,7 @@ a:hover {
   color: #333;
   background-color: #999;
   padding: 1rem;
+  display:none;
 }
 
 .inner-android a:link, .inner-div a:visited, .inner-div a:active {
