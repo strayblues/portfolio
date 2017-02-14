@@ -8,7 +8,7 @@ h1, h2, .about h4, ftr-copy {
 }
 
 .fade-in-block {
-  opacity: 0;
+  opacity: 0.2;
 }
 
 .thumbnail-mid {
