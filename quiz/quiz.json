@@ -79,7 +79,7 @@
     "wrong answers": ["undefined","NaN","null"]},
 
   {"question": "JavaScript entities start with ____ and end with ____.",
-    "correct answer": "Ampersand, semicolon",
+    "correct answer": "ampersand, semicolon",
     "wrong answers": ["semicolon, colon","semicolon, ampersand","ampersand, question mark"]},
 
   {"question": "Which event occurs when the user clicks on an HTML element?",
