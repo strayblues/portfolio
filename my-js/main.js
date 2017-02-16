@@ -33,7 +33,7 @@ $('#popup-quiz').click(function(){
 
 // Popup for Mandala
 $('#popup-mandala').click(function(){
-  var myWindow = window.open("https://strayblues.github.io/mandala/", "mandala", "width=900,height=600");
+  var myWindow = window.open("https://strayblues.github.io/mandala/", "mandala", "width=960,height=540");
 });
 
 // Slide effect on Mandala
