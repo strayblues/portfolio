@@ -10,7 +10,7 @@ function scrollReveal() {
       /* If the object is completely visible in the window, fade it in */
       if( bottom_of_window > bottom_of_object ){
 
-          $(this).animate({'opacity':'1'},1000);
+          $(this).animate({'opacity':'1'},800);
 
       }
 
@@ -38,12 +38,12 @@ $('#popup-mandala').click(function(){
 
 // Slide effect on Mandala
 $("#slide-mandala").click(function(){
-    $(".inner-mandala").slideToggle(1000);
+    $(".inner-mandala").slideToggle(800);
 });
 
 // Slide effect in Android JS quiz thumbnail
 $("#slide-android").click(function(){
-    $(".inner-android").slideToggle(1000);
+    $(".inner-android").slideToggle(800);
 });
 
 /*
