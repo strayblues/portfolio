@@ -1,0 +1,394 @@
+body {
+  background-color: #648b8c;
+  padding-top: 10rem;
+}
+
+h1, h2, .about h4, ftr-copy {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.fade-in-block {
+  opacity: 0.2;
+}
+
+.thumbnail-mid {
+  margin-bottom: 2.5rem;
+}
+
+.about {
+    font-size: 18pt;
+    color: white;
+    font-family: 'Questrial', sans-serif;
+    font-family: 'Karla', sans-serif;
+}
+
+.about h2 {
+  color: #e8aecd;
+}
+
+.about h3 {
+  font-size: 24pt;
+}
+
+.row-about {
+  font-size: 15pt;
+}
+
+.row-projects {
+  padding-top: 2rem;
+}
+
+.row-contrib h3 {
+  color: #b51e62;
+}
+
+.row-contrib h1 {
+  color: white;
+}
+
+.banner {
+  background-color: black;
+}
+
+.container {
+  padding: 2rem;
+}
+
+h1, h2 {
+  margin-top: 2.25rem;
+  margin-bottom: 2rem;
+}
+
+.hangingindent {
+  padding-left: 44px;
+  text-indent: -22px;
+}
+
+.row {
+  margin-top: 0;
+}
+
+h3 {
+  color: #e8aecd;
+  font-family: 'Varela Round', sans-serif;
+}
+
+h1, h2, h4 {
+  color: white;
+}
+
+.row-contrib {
+  color: black !important;
+  background-color: #e8aecd;
+}
+
+.contrib {
+  background-color: #e8aecd;
+}
+
+.col-md-4, .col-md-3 {
+  float: left !important;
+}
+
+a {
+  font-size: 100%;
+  color: white;
+}
+
+.app-description {
+  font-size: 100%;
+  color: black;
+}
+
+.app-description-white {
+  color: white;
+}
+
+.app-description-dark a:link, .app-description-dark a:visited, .app-description-dark a:active {
+  color: #b51e62;
+}
+
+.app-description-dark a:hover {
+  color: white;
+}
+
+.app-description-white a:link, .app-description-white a:visited, .app-description-white a:active {
+  color: #e8aecd;
+}
+
+.app-description-white a:hover {
+  color: #b51e62;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #FB7BA2;
+}
+
+.btn-group-justified {
+  display: flex;
+  width: 100%;
+}
+
+.btn {
+  line-height: 2;
+  font-size: 1.25rem;
+}
+
+.btn, .btn-group {
+  flex: 0;
+}
+
+.btn-group {
+  background-color: black;
+}
+
+.btn {
+  float: right;
+}
+
+.btn-primary {
+  color: #fff;
+  border-color: black !important;
+  background-color: black !important;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn-primary:visited, .btn-primary:hover, .btn-primary:active {
+  color: #fff;
+}
+
+.btn-primary:hover, .btn-primary:active {
+  background-color: #444 !important;
+  border-color: #444 !important;
+}
+
+.btn-default {
+  background-color: #fff;
+}
+
+.btn-default:hover {
+  background-color: #ddd !important;
+  border-color: #ddd !important;
+}
+
+.modal-strong {
+  background-color: #b51e62 !important;
+  color: white;
+}
+
+.modal-light {
+  background-color: #e8aecd;
+  color: #b51e62;
+}
+
+.modal-content {
+  background-color: #e8aecd !important;
+  color: black;
+}
+
+.btn-sm {
+  margin-top: 0rem;
+  margin-left: 0.5rem;
+  line-height: 1.5;
+  font-size: 1rem;
+}
+
+.modal-footer {
+  clear: both;
+}
+
+.ftr-copy {
+  color: white;
+  bottom: 0rem;
+  margin-top: 5rem;
+}
+
+.ftr-icons {
+  color: #e8aecd;
+  height: 6rem;
+  left, right: 0rem;
+}
+
+/*
+.ftr-img {
+  margin: auto;
+  display: block;
+  width: 7rem;
+}
+*/
+.icon-holder {
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 2.5rem;
+}
+
+.icon-holder a {
+  color: #e8aecd;
+}
+
+.icon-holder a:hover {
+  color: white;
+}
+
+.icon-holder-top {
+  margin-bottom: 5rem;
+}
+
+.icon-holder-heading {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 130%;
+  color: #e8aecd;
+}
+
+.btn-code {
+  color: black;
+  background-color: white;
+}
+
+.fa-android {
+  color: #99ff14;
+}
+
+.fa-android:hover {
+  color: #ccff89;
+}
+
+.fa-github {
+  color: black;
+}
+
+.fa-github:hover {
+  color: #444;
+}
+
+.fa-cogs {
+  color: #f78;
+}
+
+.fa-cogs:hover {
+  color: #ffa3ae;
+}
+
+.fa-desktop {
+  color: white;
+}
+
+.fa-desktop:hover {
+  color: #d1d1d1;
+}
+
+.fa {
+  margin-left: 1rem;
+}
+/*
+.fa-3x {
+  display: inline-block;
+  text-align: center;
+  vertical-align: bottom;
+  bottom: 0rem;
+}
+*/
+.status{
+  color: red;
+  text-align: center;
+}
+
+.intro-img {
+  top: -3.25rem;
+  position: relative;
+}
+
+.first {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.mandala-img {
+  margin-left: -1rem;
+}
+
+.floor {
+  bottom: -5rem;
+}
+
+.inner-div {
+  color: #333;
+  background-color: #999;
+  padding: 1rem;
+  display:none;
+}
+
+.inner-android a:link, .inner-div a:visited, .inner-div a:active {
+  color: #99ff14 !important;
+}
+
+.inner-android a:hover {
+  color: black !important;
+}
+
+.settings-path {
+  color: #99ff14;
+}
+/*
+.android-text a:link {
+  color: lime;
+}
+*/
+
+#slide-mandala a {
+  color: pink !important;
+}
+
+#slide-mandala a:hover {
+  color: black !important;
+}
+
+#text-animation{
+  color: lime;
+  font-family: "Courier";
+  font-size: 1.25rem;
+  margin: 0 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 35em;
+  animation: type 4s steps(60, end);
+}
+
+span{
+  animation: blink 1s infinite;
+}
+
+@keyframes type{
+  from { width: 0; }
+}
+
+@keyframes type2{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; }
+}
+
+@keyframes blink{
+  to{opacity: .0;}
+}
+
+::selection{
+  background: black;
+}
+
+/* So ugly */
+iframe {
+  margin-top: -35%;
+  margin-left: -55%;
+  margin-bottom: -45%;
+  width: 200%;
+}
+
+.iframe-container {
+  padding-top: 2.25rem;
+  padding-bottom: 2rem;
+}

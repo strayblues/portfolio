@@ -20,7 +20,7 @@
     <meta name="author" content="Hagar Shilo">
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
     <script src="https://use.fontawesome.com/8f61b97be3.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower|La+Belle+Aurore|Reenie+Beanie" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cabin|Karla|Questrial" rel="stylesheet">
     <title>Hagar Shilo's Portfolio</title>
@@ -29,7 +29,7 @@
     <!-- Custom styles for this template -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
-    <link href="my-css/theme.css" rel="stylesheet">
+    <link href="my-css/theme2.css" rel="stylesheet">
   </head>
   <body>
     <?php

@@ -1,1 +1,1 @@
-Bootstrap-based website for external students
+A website for external students, built with Bootstrap and jQuery.
