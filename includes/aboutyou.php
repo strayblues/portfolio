@@ -36,7 +36,7 @@
     <div class="modal-content">
       <div class="contact-form form-horizontal">
         <div class="modal-header">
-          <h1 class="modal-light display-4">About You</h1>
+          <h1 class="modal-light display-4">Contact</h1>
           <form id="my_form" onsubmit="submitForm(); return false;">
               <div class="modal-body">
                 <div class="form-group">

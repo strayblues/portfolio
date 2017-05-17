@@ -1,5 +1,6 @@
 body {
   background-color: #648b8c;
+  background-color: #cccccc;
   padding-top: 10rem;
 }
 
@@ -16,7 +17,7 @@ h1, h2, .about h4, ftr-copy {
 }
 
 .about, .app-description-white {
-  color: white;
+  color: #77233b;
   line-height: 180%;
   font-size: 16pt;
   font-family: 'Merriweather', serif;
@@ -24,6 +25,7 @@ h1, h2, .about h4, ftr-copy {
 
 .about h2 {
   color: #e8aecd;
+  color: #888;
 }
 
 .about h3 {
@@ -65,8 +67,9 @@ h1, h2 {
 }
 
 h3 {
-  color: #e8aecd;
   font-family: 'Varela Round', sans-serif;
+  color: #e8aecd;
+  color: #888;
 }
 
 h1, h2, h4 {
@@ -176,7 +179,7 @@ a:hover {
 
 .modal-light {
   background-color: #e8aecd;
-  color: #648b8c;
+  color: white;
 }
 
 .modal-content {
@@ -223,7 +226,7 @@ a:hover {
 }
 
 .icon-holder a {
-  color: #e8aecd;
+  color: #b95454;
 }
 
 .icon-holder a:hover {
@@ -247,11 +250,11 @@ a:hover {
 }
 
 .fa-android {
-  color: #99ff14;
+  color: #49d824;
 }
 
 .fa-android:hover {
-  color: #ccff89;
+  color: #2ba50b;
 }
 
 .fa-github {
@@ -259,7 +262,7 @@ a:hover {
 }
 
 .fa-github:hover {
-  color: #444;
+  color: #777;
 }
 
 .fa-cogs {
@@ -267,7 +270,7 @@ a:hover {
 }
 
 .fa-cogs:hover {
-  color: #ffa3ae;
+  color: #c14b5a;
 }
 
 .fa-desktop {
@@ -275,7 +278,15 @@ a:hover {
 }
 
 .fa-desktop:hover {
-  color: #d1d1d1;
+  color: #aaa;
+}
+
+.fa-mobile {
+  color: #b95454;
+}
+
+.fa-mobile:hover {
+  color: #7f3232;
 }
 
 .fa {
@@ -314,13 +325,13 @@ a:hover {
 
 .inner-div {
   color: black;
-  background-color: #537b7c;
+  background-color: #bbbbbb;
   padding: 1rem;
   display:none;
 }
 
 .inner-android a:link, .inner-div a:visited, .inner-div a:active {
-  color: #99ff14 !important;
+  color: #2ba50b !important;
 }
 
 .inner-android a:hover {
@@ -328,7 +339,7 @@ a:hover {
 }
 
 .settings-path {
-  color: #99ff14;
+  color: #2ba50b;
 }
 /*
 .android-text a:link {
