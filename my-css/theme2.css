@@ -13,7 +13,11 @@ h1, h2, .about h4, ftr-copy {
 }
 
 .thumbnail-mid {
-  margin-bottom: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.about-container {
+  background-color: #dddddd;
 }
 
 .about, .app-description-white {
@@ -26,6 +30,8 @@ h1, h2, .about h4, ftr-copy {
 .about h2 {
   color: #e8aecd;
   color: #888;
+  color: #c4364e;
+  color: #db435d;
 }
 
 .about h3 {
@@ -67,9 +73,11 @@ h1, h2 {
 }
 
 h3 {
-  font-family: 'Varela Round', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #e8aecd;
   color: #888;
+  color: #c4364e;
+  color: #ce6386;
 }
 
 h1, h2, h4 {

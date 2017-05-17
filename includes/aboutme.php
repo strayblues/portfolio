@@ -1,6 +1,6 @@
 
 <div class="row">
-  <div class="col-md-12">
+  <div class="col-md-12 about-container">
     <div class="about">
       <h1 class="display-4">About Me</h1>
       <p>
