@@ -180,6 +180,7 @@ a:hover {
 .modal-light {
   background-color: #e8aecd;
   color: white;
+  margin-left: 2rem;
 }
 
 .modal-content {
