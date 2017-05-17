@@ -15,11 +15,11 @@ h1, h2, .about h4, ftr-copy {
   margin-bottom: 2.5rem;
 }
 
-.about {
-    font-size: 18pt;
-    color: white;
-    font-family: 'Questrial', sans-serif;
-    font-family: 'Karla', sans-serif;
+.about, .app-description-white {
+  color: white;
+  line-height: 180%;
+  font-size: 16pt;
+  font-family: 'Merriweather', serif;
 }
 
 .about h2 {
@@ -101,7 +101,7 @@ a {
 }
 
 .app-description-white {
-  color: white;
+  font-family: 'Merriweather', serif;
 }
 
 .app-description-dark a:link, .app-description-dark a:visited, .app-description-dark a:active {

@@ -23,6 +23,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower|La+Belle+Aurore|Reenie+Beanie" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cabin|Karla|Questrial" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:300" rel="stylesheet">
     <title>Hagar Shilo's Portfolio</title>
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
