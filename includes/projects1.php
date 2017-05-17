@@ -47,8 +47,13 @@
             echo $p6;
           ?>
         </p>
+        <div class="iframe-container">
+          <iframe src="http://externit.hagarsh.com/" width="250%" height="475px"
+                  style="-webkit-transform:scale(0.45);-moz-transform-scale(0.45);">
+          </iframe>
+        </div>
       </div>
     </div>
   </div>
 
-</div>
+</div> <!-- /Row -->

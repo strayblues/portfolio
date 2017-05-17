@@ -379,3 +379,16 @@ span{
 ::selection{
   background: black;
 }
+
+/* So ugly */
+iframe {
+  margin-top: -35%;
+  margin-left: -55%;
+  margin-bottom: -45%;
+  width: 200%;
+}
+
+.iframe-container {
+  padding-top: 2.25rem;
+  padding-bottom: 2rem;
+}
