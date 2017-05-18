@@ -1,6 +1,6 @@
 body {
   background-color: #648b8c;
-  background-color: #cccccc;
+  background-color: #dddddd;
   padding-top: 10rem;
 }
 
@@ -25,6 +25,7 @@ h1, h2, .about h4, ftr-copy {
   line-height: 180%;
   font-size: 16pt;
   font-family: 'Merriweather', serif;
+  font-family: 'Inconsolata', monospace;
 }
 
 .about h2 {
@@ -40,6 +41,10 @@ h1, h2, .about h4, ftr-copy {
 
 .row-about {
   font-size: 15pt;
+}
+
+.row-form {
+  margin: 0;
 }
 
 .row-contrib h3 {
@@ -109,6 +114,7 @@ a {
 
 .app-description-white {
   font-family: 'Merriweather', serif;
+  font-family: 'Inconsolata', monospace;
 }
 
 .app-description-dark a:link, .app-description-dark a:visited, .app-description-dark a:active {
@@ -226,6 +232,7 @@ a:hover {
   width: 7rem;
 }
 */
+
 .icon-holder {
     display: inline-block;
     position: relative;
@@ -301,14 +308,7 @@ a:hover {
 .fa {
   margin-left: 1rem;
 }
-/*
-.fa-3x {
-  display: inline-block;
-  text-align: center;
-  vertical-align: bottom;
-  bottom: 0rem;
-}
-*/
+
 .status{
   color: red;
   text-align: center;
@@ -408,4 +408,12 @@ iframe {
 .iframe-container {
   padding-top: 2.25rem;
   padding-bottom: 2rem;
+}
+
+.about-container, .projects {
+  padding: 3rem;
+}
+
+.projects {
+  background-color: #cccccc;
 }

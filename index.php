@@ -24,6 +24,7 @@
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower|La+Belle+Aurore|Reenie+Beanie" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cabin|Karla|Questrial" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Merriweather:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
     <title>Hagar Shilo's Portfolio</title>
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -36,12 +37,12 @@
     <?php
       include("includes/head.html");
     ?>
-    <div class="container">
+    <div class="container projects">
       <?php
         include("includes/projects1.php");
       ?>
     </div>
-    <div class="container fade-in-block">
+    <div class="container projects fade-in-block">
       <?php
         include("includes/projects2.php");
       ?>
