@@ -115,6 +115,7 @@ a {
 .app-description-white {
   font-family: 'Merriweather', serif;
   font-family: 'Inconsolata', monospace;
+  font-size: 14pt;
 }
 
 .app-description-dark a:link, .app-description-dark a:visited, .app-description-dark a:active {
@@ -412,6 +413,24 @@ iframe {
   margin-left: 4rem;
   margin-right: 4rem;
   margin-top: -2rem;
+  background-color: #111;
+}
+
+.modal-content-inner {
+  padding: 3rem;
+  margin-left: -3rem;
+  margin-top: -3rem;
+  border-radius: 15px;
+}
+
+.modal-header, .modal-footer {
+  border-bottom: 1px solid #ccc !important;
+  border-top: 1px solid #ccc !important;
+}
+
+.modal-header-inner {
+  margin-top: 1rem;
+  padding-left: 2rem;
 }
 
 .about-container, .projects {
