@@ -7,7 +7,7 @@
         <div class="first">
           <a id="popup-mandala" href="#"><i class="fa fa-desktop fa-4x" aria-hidden="true"></i></a>
           <a target="_blank" href="http://mandala.hagarsh.com"><i class="fa fa-mobile fa-4x" aria-hidden="true"></i></a>
-          <a href="https://github.com/strayblues/mandala"><i class="fa fa-github fa-4x" aria-hidden="true"></i></a>
+          <a target="_blank" href="https://github.com/strayblues/mandala"><i class="fa fa-github fa-4x" aria-hidden="true"></i></a>
         </div>
           <?php
             $p5=file_get_contents("paragraphs/mandala.html");
@@ -22,7 +22,7 @@
         <h3>JavaScript Quiz</h3>
         <div class="first">
           <a id="popup-quiz" href="#"><i class="fa fa-desktop fa-4x" aria-hidden="true"></i></a>
-          <a href="https://github.com/strayblues/android-js-quiz"><i class="fa fa-github fa-4x" aria-hidden="true"></i></a>
+          <a target="_blank" href="https://github.com/strayblues/android-js-quiz"><i class="fa fa-github fa-4x" aria-hidden="true"></i></a>
         </div>
         <p id="slide-down" class="app-description-white">
           <?php
@@ -39,7 +39,7 @@
         <h3>External Bagrut Info</h3>
         <div class="first">
           <a target="_blank" href="//externit.hagarsh.com"><i class="fa fa-desktop fa-4x" aria-hidden="true"></i></a>
-          <a href="https://github.com/strayblues/external-bagrut"><i class="fa fa-github fa-4x" aria-hidden="true"></i></a>
+          <a target="_blank" href="https://github.com/strayblues/external-bagrut"><i class="fa fa-github fa-4x" aria-hidden="true"></i></a>
         </div>
         <p class="app-description-white">
           <?php

@@ -67,9 +67,6 @@
   </div>
 
   <div class="col-md-6">
-    <!--
-    <img class="" src="images/ma.png" alt="Mandala" style="float: right; width: 95%;"></img>
-  -->
-    <img src="images/unicorn_duckie.png" alt="Unicorn duckie" style="float: right; width: 90%;"></img>
+
   </div>
 </div>

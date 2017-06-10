@@ -1,5 +1,5 @@
 body {
-  background-color: #888;
+  background-color: #d7cec7;
   padding-top: 10rem;
 }
 
@@ -76,7 +76,7 @@ h3 {
 h1, h2, h4 {
   color: white;
 }
-
+/*
 .row-contrib {
   color: black !important;
   background-color: #e8aecd;
@@ -85,7 +85,7 @@ h1, h2, h4 {
 .contrib {
   background-color: #e8aecd;
 }
-
+*/
 .col-md-4, .col-md-3 {
   float: left !important;
 }

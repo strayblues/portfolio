@@ -31,7 +31,7 @@
     <!-- Custom styles for this template -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
-    <link href="my-css/theme2.css" rel="stylesheet">
+    <link href="css/theme3.css" rel="stylesheet">
   </head>
   <body>
     <?php
@@ -42,19 +42,19 @@
         include("includes/projects1.php");
       ?>
     </div>
-    <div class="container projects fade-in-block">
+    <div class="container projects">
       <?php
         include("includes/projects2.php");
       ?>
     </div>
     <!-- skills and such -->
-    <div class="container fade-in-block">
+    <div class="about-container">
       <?php
         include("includes/aboutme.php");
       ?>
     </div>
     <!-- contact form -->
-    <div class="container fade-in-block">
+    <div class="container">
       <?php
         include("includes/aboutyou.php");
       ?>
@@ -78,6 +78,6 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://www.atlasestateagents.co.uk/javascript/tether.min.js"></script><!-- Tether for Bootstrap -->
     <script src="js/bootstrap.min.js"></script>
-    <script src="my-js/main.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
