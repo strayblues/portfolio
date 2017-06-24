@@ -31,9 +31,10 @@
     <!-- Custom styles for this template -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
-    <link href="css/theme3.css" rel="stylesheet">
+    <link href="css/theme4.css" rel="stylesheet">
   </head>
   <body>
+  <div class="wrapper">
     <?php
       include("includes/head.html");
     ?>
@@ -53,14 +54,8 @@
         include("includes/aboutme.php");
       ?>
     </div>
-    <!-- contact form -->
-    <div class="container">
-      <?php
-        include("includes/aboutyou.php");
-      ?>
-    </div>
       <!-- icon footer -->
-    <div class="container fade-in-block">
+    <div class="container">
     <hr>
     <?php
       include("includes/fa-icons.php");
@@ -79,5 +74,6 @@
     <script src="https://www.atlasestateagents.co.uk/javascript/tether.min.js"></script><!-- Tether for Bootstrap -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
+  </div>
   </body>
 </html>

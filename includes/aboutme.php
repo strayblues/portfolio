@@ -11,7 +11,7 @@
       </p>
       <p>
         <?php
-          $p1=file_get_contents("includes/education.php");
+          $p1=file_get_contents("includes/edu-contact.php");
           echo $p1;
         ?>
       </p>

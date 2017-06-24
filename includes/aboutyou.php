@@ -51,7 +51,7 @@
                 </div><!--/form-group-->
                 <div class="form-group">
                   <div class="col-lg-12">
-                    <textarea type="text" rows="12" id="m" placeholder="Your message..." class="form-control" required></textarea>
+                    <textarea type="text" rows="8" id="m" placeholder="Your message..." class="form-control" required></textarea>
                   </div>
                 </div><!--/form-group-->
               </div>
@@ -64,9 +64,5 @@
           </div><!--/form class-->
       </form>
     </div> <!-- /modal content -->
-  </div>
-
-  <div class="col-md-6">
-
   </div>
 </div>
