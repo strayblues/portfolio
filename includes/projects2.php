@@ -12,11 +12,7 @@
           ?>
         </p>
       </div>
-      <div class="iframe-container">
-        <iframe src="http://spinner.hagarsh.com/" width="250%" height="475px"
-                style="-webkit-transform:scale(0.45);-moz-transform-scale(0.45);">
-        </iframe>
-      </div>
+        <a href="http://spinner.hagarsh.com/" target="_blank"><img class="img-thumb" src="images/spinner.png"></a>
       <!--
       <div>
         <a target="_blank" href="https://github.com/strayblues/spinner">
@@ -29,37 +25,30 @@
   <div class="col-md-4">
     <div class="thumbnail thumbnail-mid">
       <div>
-        <h3>Angular 2 ToDo List</h3>
+        <h3>Github user search</h3>
         <p class="app-description-white">
           <?php
-            $p4=file_get_contents("paragraphs/ng.txt");
+            $p4=file_get_contents("paragraphs/search.txt");
             echo $p4;
           ?>
         </p>
       </div>
-      <div>
-        <a target="_blank" href="https://github.com/strayblues/first-angular-project">
-          <i class="fa fa-github fa-4x" aria-hidden="true"></i></a>
-      </div>
+      <a target="_blank" href="http://searchgithub.hagarsh.com"><img class="img-thumb" src="images/search.png"></a>
     </div>
   </div>
 
   <div class="col-md-4">
     <div class="thumbnail thumbnail-mid">
       <div>
-        <h3>django Blog App</h3>
+        <h3>Color Game</h3>
         <p class="app-description-white">
           <?php
-            $p1=file_get_contents("paragraphs/django.txt");
+            $p1=file_get_contents("paragraphs/colorgame.txt");
             echo $p1;
           ?>
         </p>
       </div>
-      <div>
-        <a target="_blank" href="https://github.com/strayblues/my-first-blog">
-          <i class="fa fa-github fa-4x" aria-hidden="true"></i>
-        </a>
-      </div>
+        <a target="_blank" href="http://colorgame.hagarsh.com"><img class="img-thumb" src="images/color.png"></a>
     </div>
   </div>
 </div>

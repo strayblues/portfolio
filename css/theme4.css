@@ -325,6 +325,12 @@ a:hover {
   margin-left: -1rem;
 }
 
+.img-thumb {
+  width: 95%;
+  border-radius: 15px;
+  text-align: center;
+}
+
 .floor {
   bottom: -5rem;
 }

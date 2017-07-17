@@ -1,0 +1,1 @@
+A Bootstrap-based app for searching GitHub users via AJAX requests to the GitHub User API.
