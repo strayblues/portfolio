@@ -396,20 +396,6 @@ a:hover {
   background: black;
 }
 
-/* So ugly */
-iframe {
-  margin-top: -65%;
-  margin-left: -55%;
-  margin-bottom: -45%;
-  width: 200%;
-  border-radius: 25px;
-}
-
-.iframe-container {
-  padding-top: 2.25rem;
-  padding-bottom: 2rem;
-}
-
 .modal-content {
   background-color: #e8aecd !important;
   color: black;
@@ -461,23 +447,11 @@ iframe {
   }
   .container {
     padding: 1.5rem;
-
   }
   .about-container, .projects {
     padding: 1rem;
     margin-left: 0;
     margin-right: 0;
-  }
-  iframe {
-    margin-top: -30%;
-    margin-left: -50%;
-    margin-bottom: -30%;
-    width: 200%;
-    border-radius: 25px;
-  }
-  .iframe-container {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
   }
   .modal-header-inner {
     margin-left: 1rem;
