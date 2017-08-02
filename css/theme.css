@@ -424,8 +424,7 @@ a:hover {
 
 .about-container, .projects {
   padding: 4rem;
-  margin-left: 8rem;
-  margin-right: 8rem;
+  margin: 8rem auto;
 }
 
 .about-container, .projects, .modal-content {
