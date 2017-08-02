@@ -31,7 +31,7 @@
     <!-- Custom styles for this template -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
-    <link href="css/theme4.css" rel="stylesheet">
+    <link href="css/theme.css" rel="stylesheet">
   </head>
   <body>
   <div class="wrapper">
