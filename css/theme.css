@@ -1,18 +1,10 @@
 body {
   padding-top: 10rem;
-  background-color: #d7cec7;
-  background-color: #565656;
-  background-color: #dddddd;
-  background-color: #648b8c;
   background-color: #888;
 }
 
 h1, h2, .about h4, ftr-copy {
   font-family: 'Montserrat', sans-serif;
-}
-
-.fade-in-block {
-  opacity: 0.2;
 }
 
 .thumbnail-mid {
@@ -23,7 +15,6 @@ h1, h2, .about h4, ftr-copy {
   color: #77233b;
   line-height: 180%;
   font-size: 16pt;
-  font-family: 'Merriweather', serif;
   font-family: 'Inconsolata', monospace;
 }
 
@@ -42,19 +33,6 @@ h1, h2, .about h4, ftr-copy {
   font-size: 15pt;
 }
 
-/*
-.row-form {
-  margin: 0;
-}
-
-.row-contrib h3 {
-  color: #b51e62;
-}
-
-.row-contrib h1 {
-  color: white;
-}
-*/
 .banner {
   background-color: black;
 }
@@ -79,23 +57,11 @@ h1, h2 {
 
 h3 {
   font-family: 'Montserrat', sans-serif;
-  color: #e8aecd;
-  color: #888;
-  color: #c4364e;
   color: #ce6386;
 }
 
 h1, h2, h4 {
   color: white;
-}
-
-.row-contrib {
-  color: black !important;
-  background-color: #e8aecd;
-}
-
-.contrib {
-  background-color: #e8aecd;
 }
 
 .col-md-4, .col-md-3 {
@@ -221,14 +187,6 @@ a:hover {
   left, right: 0rem;
 }
 
-/*
-.ftr-img {
-  margin: auto;
-  display: block;
-  width: 7rem;
-}
-*/
-
 .icon-holder {
     display: inline-block;
     position: relative;
@@ -321,10 +279,6 @@ a:hover {
   margin-bottom: 1rem;
 }
 
-.mandala-img {
-  margin-left: -1rem;
-}
-
 .img-thumb {
   width: 95%;
   border-radius: 15px;
@@ -352,19 +306,6 @@ a:hover {
 
 .settings-path {
   color: #2ba50b;
-}
-/*
-.android-text a:link {
-  color: lime;
-}
-*/
-
-#slide-mandala a {
-  color: pink !important;
-}
-
-#slide-mandala a:hover {
-  color: black !important;
 }
 
 #text-animation{
@@ -423,7 +364,8 @@ a:hover {
 }
 
 .about-container, .projects {
-  padding: 4rem;
+  padding-left: 4rem;
+  padding-right: 3rem;
   margin: 8rem auto;
 }
 

@@ -18,11 +18,8 @@
     <link rel="icon" href="favicon.ico">
     <meta name="description" content="Hagar's web and mobile portfolio">
     <meta name="author" content="Hagar Shilo">
-    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
     <script src="https://use.fontawesome.com/8f61b97be3.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|La+Belle+Aurore|Reenie+Beanie" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Cabin|Karla|Questrial" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Merriweather:300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
     <title>Hagar Shilo's Portfolio</title>
