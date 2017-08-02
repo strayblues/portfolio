@@ -49,7 +49,7 @@
       ?>
     </div>
     <!-- skills and such -->
-    <div class="about-container">
+    <div class="container about-container">
       <?php
         include("includes/aboutme.php");
       ?>
