@@ -1,4 +1,4 @@
-<h1 class="display-4">Other Projects</h1>
+<h1 class="display-4">Smaller Projects</h1>
 <div class="row">
 
   <div class="col-md-4">
@@ -25,30 +25,30 @@
   <div class="col-md-4">
     <div class="thumbnail thumbnail-mid">
       <div>
-        <h3>Github user search</h3>
+        <h3>Buzzfeed-style Quiz</h3>
         <p class="app-description-white">
           <?php
-            $p4=file_get_contents("paragraphs/search.txt");
+            $p4=file_get_contents("paragraphs/shabat.html");
             echo $p4;
           ?>
         </p>
       </div>
-      <a target="_blank" href="http://searchgithub.hagarsh.com"><img class="img-thumb" src="images/search.png"></a>
+      <a target="_blank" href="http://hagarsh.com/shabat/"><img class="img-thumb" src="images/shabat.png"></a>
     </div>
   </div>
 
   <div class="col-md-4">
     <div class="thumbnail thumbnail-mid">
       <div>
-        <h3>Color Game</h3>
+        <h3>Hex-RGB Converter</h3>
         <p class="app-description-white">
           <?php
-            $p1=file_get_contents("paragraphs/colorgame.txt");
+            $p1=file_get_contents("paragraphs/hex.html");
             echo $p1;
           ?>
         </p>
       </div>
-        <a target="_blank" href="http://colorgame.hagarsh.com"><img class="img-thumb" src="images/color.png"></a>
+        <a target="_blank" href="http://hagarsh.com/hex-rgb/"><img class="img-thumb" src="images/hex.png"></a>
     </div>
   </div>
 </div>

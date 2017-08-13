@@ -1,1 +1,1 @@
-RGB guessing game.
+You get a randomly generated color code, then try to guess which color it represents. 

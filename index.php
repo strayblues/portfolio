@@ -45,6 +45,11 @@
         include("includes/projects2.php");
       ?>
     </div>
+    <div class="container projects">
+      <?php
+        include("includes/projects3.php");
+      ?>
+    </div>
     <!-- skills and such -->
     <div class="container about-container">
       <?php

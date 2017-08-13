@@ -1,6 +1,6 @@
 body {
-  padding-top: 10rem;
-  background-color: #888;
+  padding-top: 7rem;
+  background-color: lightcoral;
 }
 
 h1, h2, .about h4, ftr-copy {
@@ -180,13 +180,13 @@ a:hover {
   bottom: 0rem;
   margin-top: 5rem;
 }
-
+/*
 .ftr-icons {
   color: #e8aecd;
   height: 6rem;
   left, right: 0rem;
 }
-
+*/
 .icon-holder {
     display: inline-block;
     position: relative;
@@ -196,7 +196,7 @@ a:hover {
 }
 
 .icon-holder a {
-  color: #555;
+  color: #af3131;
 }
 
 .icon-holder a:hover {
@@ -354,8 +354,10 @@ a:hover {
 }
 
 .modal-header, .modal-footer {
-  border-bottom: 1px solid #ccc !important;
-  border-top: 1px solid #ccc !important;
+  /* The color matches the container's color
+      rendering the borders invisible */
+  border-bottom: 1px solid #ffd1d1 !important;
+  border-top: 1px solid #ffd1d1 !important;
 }
 
 .modal-header-inner {
@@ -374,14 +376,14 @@ a:hover {
 }
 
 .projects, .about-container {
-  background-color: #cccccc;
+  background-color: #ffd1d1;
   margin-bottom: 4rem;
 }
 
 @media(max-width:700px) {
   body {
     margin-top: 2rem;
-    background-color: #cccccc;
+    background-color: lightcoral; /*why?*/
   }
   .wrapper {
     overflow-x: hidden;

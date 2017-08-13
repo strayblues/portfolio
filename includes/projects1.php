@@ -3,11 +3,13 @@
   <div class="col-md-4">
     <div class="thumbnail thumbnail-mid">
       <div>
-        <h3>Mandala</h3>
+        <h3>Mandala
+        <span>
+          <a target="_blank" href="https://github.com/strayblues/mandala"><i class="fa fa-github" aria-hidden="true"></i></a>
+        </span>
+        </h3>
         <div class="first">
-          <a id="popup-mandala" href="#"><i class="fa fa-desktop fa-4x" aria-hidden="true"></i></a>
-          <a target="_blank" href="http://mandala.hagarsh.com"><i class="fa fa-mobile fa-4x" aria-hidden="true"></i></a>
-          <a target="_blank" href="https://github.com/strayblues/mandala"><i class="fa fa-github fa-4x" aria-hidden="true"></i></a>
+          <a id="popup-mandala" href="#"><img class="img-thumb" src="images/mandala.png"></a>
         </div>
           <?php
             $p5=file_get_contents("paragraphs/mandala.html");
@@ -19,10 +21,13 @@
   <div class="col-md-4">
     <div class="thumbnail thumbnail-mid">
       <div>
-        <h3>JavaScript Quiz</h3>
+        <h3>JS Quiz
+          <span>
+            <a target="_blank" href="https://github.com/strayblues/android-js-quiz"><i class="fa fa-github" aria-hidden="true"></i></a>
+          </span>
+        </h3>
         <div class="first">
-          <a id="popup-quiz" href="#"><i class="fa fa-desktop fa-4x" aria-hidden="true"></i></a>
-          <a target="_blank" href="https://github.com/strayblues/android-js-quiz"><i class="fa fa-github fa-4x" aria-hidden="true"></i></a>
+          <a id="popup-quiz" href="#"><img class="img-thumb" src="images/jsquiz-half.png"></a>
         </div>
         <p id="slide-down" class="app-description-white">
           <?php
@@ -36,25 +41,20 @@
   <div class="col-md-4">
     <div class="thumbnail thumbnail-mid">
       <div>
-        <h3>External Bagrut Info</h3>
+        <h3>Color Game
+          <span>
+            <a target="_blank" href="https://github.com/strayblues/color-game"><i class="fa fa-github" aria-hidden="true"></i></a>
+          </span>
+        </h3>
         <div class="first">
-          <a target="_blank" href="//externit.hagarsh.com"><i class="fa fa-desktop fa-4x" aria-hidden="true"></i></a>
-          <a target="_blank" href="https://github.com/strayblues/external-bagrut"><i class="fa fa-github fa-4x" aria-hidden="true"></i></a>
+          <a target="_blank" href="http://colorgame.hagarsh.com"><img class="img-thumb" src="images/colorz.png"></a>
         </div>
         <p class="app-description-white">
           <?php
-            $p6=file_get_contents("paragraphs/externit.txt");
-            echo $p6;
+            $p1=file_get_contents("paragraphs/colorgame.txt");
+            echo $p1;
           ?>
         </p>
-        <a href="http://externit.hagarsh.com/" target="_blank"><img class="img-thumb" src="images/externit.png"></a>
-        <!--
-        <div class="iframe-container">
-          <iframe src="http://externit.hagarsh.com/" width="250%" height="475px"
-                  style="-webkit-transform:scale(0.45);-moz-transform-scale(0.45);">
-          </iframe>
-        </div>
-        -->
       </div>
     </div>
   </div>
