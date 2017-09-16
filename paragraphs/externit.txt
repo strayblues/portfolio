@@ -1,1 +1,1 @@
-A sort of info page for external students with links to essential resource, designed with Bootstrap and jQuery.
+An info page for external students with links to essential resource, designed using Bootstrap and jQuery.

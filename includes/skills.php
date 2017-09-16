@@ -1,6 +1,6 @@
 <div class="row row-about about">
-  <div class="col-md-9">
-    <p class="about">
+  <div class="col-md-9 aboutme-text">
+    <p>
       My name is Hagar Shilo.
     </p><p>
       I began to take an interest in web and mobile development in early 2016.

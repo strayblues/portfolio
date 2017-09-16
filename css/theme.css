@@ -390,6 +390,11 @@ a:hover {
   width: 100%;
 }
 
+.aboutme-text {
+  font-size: 120%;
+  line-height: 190%;
+}
+
 @media(max-width:678px) {
   body {
     margin-top: 2rem;
