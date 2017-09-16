@@ -1,4 +1,29 @@
 
+// On page load
+if ($(window).width() < 1000) {
+   $("#mandala-iframe").hide();
+   $("#popup-mandala").show();
+}
+else {
+   $("#mandala-iframe").show();
+   $("#popup-mandala").hide();
+}
+
+// On window resize
+$( window ).resize(function() {
+  if ($(window).width() < 1000) {
+     $("#mandala-iframe").hide();
+     $("#popup-mandala").show();
+  }
+  else {
+     $("#mandala-iframe").show();
+     $("#popup-mandala").hide();
+
+  }
+       document.getElementById("#mandala-iframe").contentDocument.location.reload(true);
+});
+
+
 // Scrollin' effect
 function scrollReveal() {
   /* Check the location of each desired element */

@@ -1,5 +1,5 @@
 body {
-  padding-top: 7rem;
+  padding-top: 5rem;
   background-color: lightcoral;
 }
 
@@ -18,15 +18,31 @@ h1, h2, .about h4, ftr-copy {
   font-family: 'Inconsolata', monospace;
 }
 
+h1, h2 {
+  margin-top: 2.25rem;
+  margin-bottom: 2rem;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #ce6386;
+}
+
+h1, h2, h4 {
+  color: white;
+}
+
 .about h2 {
-  color: #e8aecd;
-  color: #888;
-  color: #c4364e;
   color: #db435d;
 }
 
 .about h3 {
   font-size: 24pt;
+}
+
+a {
+  font-size: 100%;
+  color: white;
 }
 
 .row-about {
@@ -41,10 +57,6 @@ h1, h2, .about h4, ftr-copy {
   padding: 2rem;
 }
 
-h1, h2 {
-  margin-top: 2.25rem;
-  margin-bottom: 2rem;
-}
 /*
 .hangingindent {
   padding-left: 44px;
@@ -55,22 +67,8 @@ h1, h2 {
   margin-top: 0;
 }
 
-h3 {
-  font-family: 'Montserrat', sans-serif;
-  color: #ce6386;
-}
-
-h1, h2, h4 {
-  color: white;
-}
-
 .col-md-4, .col-md-3 {
   float: left !important;
-}
-
-a {
-  font-size: 100%;
-  color: white;
 }
 
 .app-description {
@@ -153,11 +151,12 @@ a:hover {
   border-color: #ddd !important;
 }
 
+/*
 .modal-strong {
   background-color: #b51e62 !important;
   color: white;
 }
-
+*/
 .modal-light {
   background-color: #e8aecd;
   color: white;
@@ -280,9 +279,8 @@ a:hover {
 }
 
 .img-thumb {
-  width: 95%;
+  width: 98%;
   border-radius: 15px;
-  text-align: center;
 }
 
 .floor {
@@ -368,10 +366,10 @@ a:hover {
 .about-container, .projects {
   padding-left: 4rem;
   padding-right: 3rem;
-  margin: 8rem auto;
+  margin: 5rem auto;
 }
 
-.about-container, .projects, .modal-content {
+.about-container, .projects, .modal-content, .img-me {
   border-radius: 10px;
 }
 
@@ -380,7 +378,19 @@ a:hover {
   margin-bottom: 4rem;
 }
 
-@media(max-width:700px) {
+.mandala-iframe, .popup-mandala {
+  display: none;
+}
+
+.mandala-iframe {
+  display: block;
+}
+
+.img-me {
+  width: 100%;
+}
+
+@media(max-width:678px) {
   body {
     margin-top: 2rem;
     background-color: lightcoral; /*why?*/
@@ -395,13 +405,16 @@ a:hover {
     padding: 1rem;
     margin-left: 0;
     margin-right: 0;
+    align-items: center;
   }
   .modal-header-inner {
     margin-left: 1rem;
   }
+/*
   .display-4{
     margin-top: -1rem;
   }
+*/
   h2 {
     margin-top: 3rem;
   }
@@ -411,5 +424,8 @@ a:hover {
   .first {
     margin-top: 1rem;
     margin-bottom: 1rem;
+  }
+  .img-me {
+    width: 70%;
   }
 }

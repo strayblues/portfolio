@@ -1,1 +1,1 @@
-A website for external students, built with Bootstrap and jQuery.
+A sort of info page for external students with links to essential resource, designed with Bootstrap and jQuery.

@@ -37,17 +37,22 @@
     ?>
     <div class="container projects">
       <?php
-        include("includes/projects1.php");
+        include("includes/projects-mandala.php");
       ?>
     </div>
     <div class="container projects">
       <?php
-        include("includes/projects2.php");
+        include("includes/projects-apis.php");
       ?>
     </div>
     <div class="container projects">
       <?php
-        include("includes/projects3.php");
+        include("includes/projects-more.php");
+      ?>
+    </div>
+    <div class="container projects">
+      <?php
+        include("includes/projects-small.php");
       ?>
     </div>
     <!-- skills and such -->
