@@ -378,7 +378,7 @@ a:hover {
   margin-bottom: 4rem;
 }
 
-.mandala-iframe, .popup-mandala {
+#mandala-iframe, #popup-mandala {
   display: none;
 }
 

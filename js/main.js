@@ -12,12 +12,13 @@ else {
 // On window resize
 $( window ).resize(function() {
   if ($(window).width() < 1000) {
-     $("#mandala-iframe").hide();
-     $("#popup-mandala").show();
+    $("#mandala-iframe").hide();
+    $("#popup-mandala").show();
   }
   else {
-     $("#mandala-iframe").show();
-     $("#popup-mandala").hide();
+    location.reload();
+    $("#mandala-iframe").show();
+    $("#popup-mandala").hide();
 
   }
        document.getElementById("#mandala-iframe").contentDocument.location.reload(true);
