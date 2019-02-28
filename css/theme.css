@@ -1,7 +1,7 @@
 body {
   padding-top: 5rem;
   background-image: linear-gradient(black, black, steelblue, black, steelblue, black, steelblue);
-  background-color: lightcoral;
+  background-color: steelblue;
 }
 
 h1, h2, .about h4, ftr-copy {
@@ -380,6 +380,10 @@ a:hover {
   width: 70%;
 }
 
+.projects.mandala {
+  width: 100%;
+}
+
 #mandala-iframe, #popup-mandala {
   display: none;
 }
@@ -406,7 +410,7 @@ a:hover {
   .container {
     padding: 1.5rem;
   }
-  .about-container, .projects {
+  .about-container, .projects, .projects.mandala {
     margin-left: 1.18rem !important;
     width: 92%;
     box-sizing: border-box;

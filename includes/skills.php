@@ -22,7 +22,7 @@
     <h2>Experience</h2>
       <ul>
         <li>2019: Frontend development at Zazim Community Action</li>
-        <li>2018: Remote summer intenship @Wikimedia (Google Summer of Code)</li>
+        <li>2018: Remote open-source summer intenship @Wikimedia (Google Summer of Code)</li>
         <li>2017-2019: Freelance projects</li>
       </ul>
   </div>

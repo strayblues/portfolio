@@ -43,7 +43,7 @@
         include("includes/aboutme.php");
       ?>
     </div>
-    <div class="container projects">
+    <div class="container projects mandala">
       <?php
         include("includes/projects-mandala.php");
       ?>
