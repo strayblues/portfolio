@@ -17,7 +17,7 @@
     </p>
   </div>
   <div class="col-md-3">
-    <img class="img-me" src="images/me2.jpg" alt="Me">
+    <img class="img-me" src="images/7b.jpg" alt="Me">
   </div>
 </div>
 <div class="row row-about about">
