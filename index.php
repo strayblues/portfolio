@@ -14,7 +14,6 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <link rel="icon" href="favicon.ico">
     <meta name="description" content="Hagar's web and mobile portfolio">
     <meta name="author" content="Hagar Shilo">
@@ -23,9 +22,7 @@
     <link href="https://fonts.googleapis.com/css?family=Merriweather:300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
     <title>Hagar Shilo's Portfolio</title>
-    <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom styles for this template -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
     <link href="css/theme.css" rel="stylesheet">
@@ -35,6 +32,17 @@
     <?php
       include("includes/head.html");
     ?>
+    <!-- <div class="container projects">
+      <?php
+        include("includes/intro.php");
+      ?>
+    </div> -->
+    <!-- skills and such -->
+    <div class="container about-container">
+      <?php
+        include("includes/aboutme.php");
+      ?>
+    </div>
     <div class="container projects">
       <?php
         include("includes/projects-mandala.php");
@@ -55,12 +63,6 @@
         include("includes/projects-small.php");
       ?>
     </div>
-    <!-- skills and such -->
-    <div class="container about-container">
-      <?php
-        include("includes/aboutme.php");
-      ?>
-    </div>
       <!-- icon footer -->
     <div class="container">
     <hr>
@@ -68,17 +70,12 @@
       include("includes/fa-icons.php");
     ?>
       <footer class="ftr-copy">
-        <p>&copy; Hagar Shilo 2016</p>
+        <p>&copy; Hagar Shilo 2019</p>
       </footer>
     </div>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="https://www.atlasestateagents.co.uk/javascript/tether.min.js"></script><!-- Tether for Bootstrap -->
+    <script src="https://www.atlasestateagents.co.uk/javascript/tether.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
   </div>

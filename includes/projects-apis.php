@@ -1,4 +1,4 @@
-<h1 class="display-4">Web APIs</h1>
+<h1 class="display-4">Web API Projects</h1>
 <div class="row">
 
   <div class="col-md-4">
