@@ -19,10 +19,10 @@
     <meta name="author" content="Hagar Shilo">
     <meta property="og:title" content="Hagar Shilo's Portfolio" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="//hagarsh.com/" />
+    <meta property="og:url" content="https://hagarsh.com/" />
     <meta property="og:site_name" content="Hagar Shilo's web and mobile portfolio" />
     <meta property="og:description" content="About, projects, etc." />
-    <meta property="og:image" content="//blog.hagarsh.com/wp-content/uploads/2018/11/Screen-Shot-2018-11-26-at-14.08.44-1.png" />
+    <meta property="og:image" content="//blog.hagarsh.com/wp-content/uploads/2018/10/feet-349687.jpg" />
     <script src="https://use.fontawesome.com/8f61b97be3.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Merriweather:300" rel="stylesheet">
