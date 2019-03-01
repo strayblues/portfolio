@@ -17,6 +17,12 @@
     <link rel="icon" href="favicon.ico">
     <meta name="description" content="Hagar's web and mobile portfolio">
     <meta name="author" content="Hagar Shilo">
+    <meta property="og:title" content="Hagar Shilo's Portfolio" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="//hagarsh.com/" />
+    <meta property="og:site_name" content="Hagar Shilo's Portfolio" />
+    <meta property="og:description" content="web and mobile portfolio" />
+    <meta property="og:image" content="//blog.hagarsh.com/wp-content/uploads/2018/10/feet-349687.jpg" />
     <script src="https://use.fontawesome.com/8f61b97be3.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Merriweather:300" rel="stylesheet">
@@ -25,7 +31,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
-    <link href="css/theme.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
   <div class="wrapper">
