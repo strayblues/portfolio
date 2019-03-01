@@ -8,7 +8,7 @@
         </span>
         </h3>
         <div class="first">
-          <iframe id="mandala-iframe" height="450px" width="98%" src="http://mandala-app.com"></iframe>
+          <iframe id="mandala-iframe" height="450px" width="98%" src="//mandala-app.com"></iframe>
           <a id="popup-mandala" href="#"><img class="img-thumb" src="images/mandala.png"></a>
         </div>
           <?php
