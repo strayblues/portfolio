@@ -1,7 +1,7 @@
 <div class="row row-about about">
   <div class="col-md-9 aboutme-text">
     <p>I am a freelance Frontend Developer. I work with Node, Express, Vue, Handlebars, Bootstrap, WordPress, PHP and jQuery. I write about career change and the developer community at TheMarker.</p>
-    <p>I'm also into math-inspired art, painting, theoretical linguistics, inline skating, playing musical instruments, and even sewing. But, as you might have guessed, this is my web portfolio. So let's try and stay on course.</p>
+    <p>I'm also into math-inspired art, theoretical linguistics and even sewing. But, as you might have guessed, this is my web portfolio. So let's try and stay on course.</p>
   </div>
   <div class="col-md-3">
     <img class="img-me" src="images/7b.jpg" alt="Me">
